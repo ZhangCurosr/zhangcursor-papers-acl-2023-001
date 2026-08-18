@@ -4,5 +4,10 @@
  "title": "BREAK-Breaking-the-Dialogue-State-Tracking-Barrier-with-Beam",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 07:11:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/417829d7-519f-4450-996d-35fa0ee92230.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/417829d7-519f-4450-996d-35fa0ee92230.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:48:02",
+  "chunks": 1
+ }
 }

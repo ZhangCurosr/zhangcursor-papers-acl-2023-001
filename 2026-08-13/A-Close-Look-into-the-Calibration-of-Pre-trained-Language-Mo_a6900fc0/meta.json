@@ -4,5 +4,37 @@
  "title": "A-Close-Look-into-the-Calibration-of-Pre-trained-Language-Mo",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-13 07:10:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/44ed3d1e-6c06-4965-8e39-24a65ddab22e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/44ed3d1e-6c06-4965-8e39-24a65ddab22e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:45:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "预训练语言模型",
+    "校准",
+    "可学习校准",
+    "置信度",
+    "分布外检测"
+   ],
+   "field": "NLP模型可靠性与校准",
+   "innovations": [
+    "提出欠拟合/过拟合双状态校准分析框架，揭示PLMs训练中超置信持续增长问题",
+    "提出I-Iter和I-Simul可学习校准训练范式，有效降低错误预测置信度",
+    "证明校准成功源于任务可学习性而非模型自我检查能力"
+   ],
+   "benchmarks": [
+    "MNLI",
+    "SST-2",
+    "AG-News",
+    "Yahoo",
+    "Amazon",
+    "SST-5",
+    "SemEval",
+    "HANS",
+    "ANLI",
+    "Civil"
+   ]
+  }
+ }
 }

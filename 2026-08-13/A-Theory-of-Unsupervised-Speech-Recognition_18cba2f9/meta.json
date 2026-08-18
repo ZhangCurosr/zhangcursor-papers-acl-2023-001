@@ -4,5 +4,31 @@
  "title": "A-Theory-of-Unsupervised-Speech-Recognition",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:11:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5cbc4d71-fff5-4661-8a9c-406974671aff.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5cbc4d71-fff5-4661-8a9c-406974671aff.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:46:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "无监督语音识别",
+    "ASR-U",
+    "随机矩阵理论",
+    "神经正切核",
+    "GAN训练动力学",
+    "相变现象",
+    "可学习性分析"
+   ],
+   "field": "无监督语音识别与生成模型理论",
+   "innovations": [
+    "建立基于随机矩阵理论和NTK的ASR-U统一理论框架，证明谱充分条件与样本复杂度界",
+    "在NTK极限下证明GAN交替梯度训练的收敛性，给出Generator损失指数衰减率",
+    "在可控谱性质的合成语言上验证理论预测的相变现象并提出训练改进策略"
+   ],
+   "benchmarks": [
+    "Synthetic HMM-based languages (Circulant/De Bruijn/Hypercube graphs)",
+    "wav2vec-U baseline"
+   ]
+  }
+ }
 }

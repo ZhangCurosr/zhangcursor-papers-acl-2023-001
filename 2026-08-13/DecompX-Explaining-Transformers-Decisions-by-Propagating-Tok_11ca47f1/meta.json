@@ -4,5 +4,32 @@
  "title": "DecompX-Explaining-Transformers-Decisions-by-Propagating-Tok",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-08-13 07:11:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2edecdb8-dcb2-4ed3-a0a0-18fb9282c007.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2edecdb8-dcb2-4ed3-a0a0-18fb9282c007.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:50:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Transformer解释",
+    "向量基归因",
+    "faithfulness评估",
+    "FFN分解",
+    "偏置分解",
+    "token归因"
+   ],
+   "field": "可解释AI/自然语言处理",
+   "innovations": [
+    "逐层传播分解向量替代rollout标量聚合以避免信息丢失",
+    "点态线性近似实现FFN非线性组件的向量分解",
+    "将分解传播至分类头实现per-label正负贡献量化"
+   ],
+   "benchmarks": [
+    "SST-2",
+    "MNLI",
+    "QNLI",
+    "HateXplain"
+   ]
+  }
+ }
 }

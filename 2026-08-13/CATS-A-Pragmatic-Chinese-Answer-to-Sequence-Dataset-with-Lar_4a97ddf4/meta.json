@@ -4,5 +4,32 @@
  "title": "CATS-A-Pragmatic-Chinese-Answer-to-Sequence-Dataset-with-Lar",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-08-13 07:11:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a7c8e62f-e5b1-4934-9b42-eb063d7b8fe8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a7c8e62f-e5b1-4934-9b42-eb063d7b8fe8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:48:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Answer-to-Sequence",
+    "数据到文本生成",
+    "图神经网络",
+    "中文数据集",
+    "统一图转换",
+    "节点段嵌入"
+   ],
+   "field": "数据到文本生成",
+   "innovations": [
+    "提出大规模高质量中文Answer-to-Sequence数据集CATS（43,369样本）",
+    "设计UGT统一图转换方法桥接SQL与表格的结构差异",
+    "引入NSE节点段嵌入保留原始图结构信息以提升建模效果"
+   ],
+   "benchmarks": [
+    "CATS",
+    "CATS-D",
+    "CATS-S",
+    "CoSQL"
+   ]
+  }
+ }
 }

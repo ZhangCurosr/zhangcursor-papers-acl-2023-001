@@ -4,5 +4,30 @@
  "title": "An-Invariant-Learning-Characterization-of-Controlled-Text-Ge",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 07:11:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/197391f6-c005-45f2-ab85-0068831e0c89.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/197391f6-c005-45f2-ab85-0068831e0c89.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:47:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "受控文本生成",
+    "分布偏移",
+    "不变学习",
+    "毒性检测",
+    "大语言模型",
+    "域外泛化",
+    "虚假相关性"
+   ],
+   "field": "自然语言处理-可控生成与鲁棒性",
+   "innovations": [
+    "将受控文本生成系统性地表征为分布偏移下的不变学习问题",
+    "提出EVIAN方法通过数据腐蚀隐式构建用于不变学习的环境"
+   ],
+   "benchmarks": [
+    "CivilComments",
+    "RealToxicityPrompts"
+   ]
+  }
+ }
 }

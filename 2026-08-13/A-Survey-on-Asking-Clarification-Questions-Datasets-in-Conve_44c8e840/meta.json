@@ -4,5 +4,35 @@
  "title": "A-Survey-on-Asking-Clarification-Questions-Datasets-in-Conve",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-13 07:11:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f24e880b-c72f-47fc-86f9-6df02a464066.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f24e880b-c72f-47fc-86f9-6df02a464066.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:46:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "澄清问题",
+    "对话系统",
+    "数据集综述",
+    "信息检索",
+    "对话问答"
+   ],
+   "field": "对话式信息检索",
+   "innovations": [
+    "提出t-SNE语义可视化策略诊断数据集冗余性",
+    "构建涵盖三大子任务的统一基准实验平台",
+    "揭示Doc2Query在Conv.Search与Conv.QA数据集上的泛化差异"
+   ],
+   "benchmarks": [
+    "ClariT",
+    "Qulac",
+    "ClariQ",
+    "MIMICS",
+    "ClarQ",
+    "TavakoliCQ",
+    "MANtIS",
+    "CLAQUA"
+   ]
+  }
+ }
 }

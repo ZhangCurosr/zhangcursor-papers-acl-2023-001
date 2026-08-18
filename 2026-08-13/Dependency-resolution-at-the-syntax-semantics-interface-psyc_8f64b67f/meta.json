@@ -4,5 +4,30 @@
  "title": "Dependency-resolution-at-the-syntax-semantics-interface-psyc",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-08-13 14:54:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ac35c5bf-e175-4b74-b325-cede3c6d10b6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ac35c5bf-e175-4b74-b325-cede3c6d10b6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:50:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "control dependencies",
+    "dependency resolution",
+    "psycholinguistics",
+    "masked language models",
+    "syntax-semantics interface",
+    "cross-linguistic evaluation"
+   ],
+   "field": "计算心理语言学",
+   "innovations": [
+    "构建西班牙语/加利西亚语控制依赖评估数据集",
+    "揭示语言模型依赖线性距离而非词法语义信息的本质缺陷",
+    "系统比较主宾语控制在不同模型和语言中的表现"
+   ],
+   "benchmarks": [
+    "BLiMP",
+    "Spanish/Galician control dataset"
+   ]
+  }
+ }
 }

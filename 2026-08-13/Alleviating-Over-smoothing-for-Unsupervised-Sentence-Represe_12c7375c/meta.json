@@ -4,5 +4,37 @@
  "title": "Alleviating-Over-smoothing-for-Unsupervised-Sentence-Represe",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 07:11:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/eeacde62-10ec-493a-ab1d-9393ac29f9e1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/eeacde62-10ec-493a-ab1d-9393ac29f9e1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:47:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "过平滑",
+    "无监督句子表示",
+    "对比学习",
+    "自对比学习",
+    "负样本挖掘",
+    "预训练语言模型"
+   ],
+   "field": "无监督句子表征学习",
+   "innovations": [
+    "首次发现并定义无监督句子表示中的层间过平滑问题",
+    "提出SSCL，利用PLM中间层表示作为负样本的即插即用对比学习框架"
+   ],
+   "benchmarks": [
+    "STS-B",
+    "STS12-16",
+    "SICK-R",
+    "MR",
+    "CR",
+    "SUBJ",
+    "MPQA",
+    "SST-2",
+    "TREC",
+    "MRPC"
+   ]
+  }
+ }
 }

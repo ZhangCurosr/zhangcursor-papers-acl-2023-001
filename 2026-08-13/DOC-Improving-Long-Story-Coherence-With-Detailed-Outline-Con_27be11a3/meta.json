@@ -4,5 +4,29 @@
  "title": "DOC-Improving-Long-Story-Coherence-With-Detailed-Outline-Con",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:11:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c64e008a-4bfc-44f9-993e-acd4423345e5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c64e008a-4bfc-44f9-993e-acd4423345e5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:51:31",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "long story generation",
+    "coherence",
+    "structured planning",
+    "contrastive control",
+    "GPT-3",
+    "OPT"
+   ],
+   "field": "长文本生成与可控文本生成",
+   "innovations": [
+    "层次化递归大纲生成器Detailed Outliner，将premise扩展为树状详细事件树",
+    "基于句截断拼接Hard negatives的对比训练控制器Detailed Controller，实现token级全程相关性引导"
+   ],
+   "benchmarks": [
+    "WritingPrompts",
+    "人工pairwise Coherent/Relevant/Interesting评估"
+   ]
+  }
+ }
 }

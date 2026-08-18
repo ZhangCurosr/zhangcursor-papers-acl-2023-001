@@ -4,5 +4,30 @@
  "title": "Decoding-Symbolism-in-Language-Models",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:11:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a5ad5442-70f2-4635-8666-d6279e6848ee.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a5ad5442-70f2-4635-8666-d6279e6848ee.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:50:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "符号象征解码",
+    "语言模型评估",
+    "先验偏差",
+    "重排序去偏",
+    "常识推理",
+    "SymbA"
+   ],
+   "field": "语言模型知识与推理",
+   "innovations": [
+    "提出SymbA框架系统评估LMs的传统与情境化象征解码能力",
+    "揭示并量化先进LMs因预训练语料频率导致的符号解码先验偏差",
+    "提出基于条件概率与先验概率比值重排序的简单有效去偏方法"
+   ],
+   "benchmarks": [
+    "Conventional Literary Symbolism (536 pairs)",
+    "Advertising Situated Symbolism (530 pairs)"
+   ]
+  }
+ }
 }

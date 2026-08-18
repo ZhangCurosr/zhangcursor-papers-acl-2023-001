@@ -4,5 +4,33 @@
  "title": "Cold-Start-Data-Selection-for-Better-Few-shot-Language-Model",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-13 07:11:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e1e531b5-9f56-4d84-a37e-f98baacc2047.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e1e531b5-9f56-4d84-a37e-f98baacc2047.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:49:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cold-start active learning",
+    "few-shot fine-tuning",
+    "data selection",
+    "prompt-based learning",
+    "uncertainty propagation"
+   ],
+   "field": "高效语言模型微调",
+   "innovations": [
+    "基于prompt的不确定性传播方法，解决冷启动场景下预测偏差问题",
+    "分区-重写（PTR）策略，动态平衡样本信息量与跨簇多样性",
+    "统一框架验证于vanilla finetuning、prompt-based learning、半监督学习与多轮AL四种设置"
+   ],
+   "benchmarks": [
+    "IMDB",
+    "Yelp-full",
+    "AG News",
+    "Yahoo! Answers",
+    "DBPedia",
+    "TREC"
+   ]
+  }
+ }
 }

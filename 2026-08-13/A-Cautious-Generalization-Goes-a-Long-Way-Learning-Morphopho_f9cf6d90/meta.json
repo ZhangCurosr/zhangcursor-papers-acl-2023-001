@@ -4,5 +4,31 @@
  "title": "A-Cautious-Generalization-Goes-a-Long-Way-Learning-Morphopho",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 07:10:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/861fdb65-679a-495d-b08b-a816416de336.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/861fdb65-679a-495d-b08b-a816416de336.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:46:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "morphophonology",
+    "rule learning",
+    "low-resource NLP",
+    "Arabic dialects",
+    "tolerance principle",
+    "generalization"
+   ],
+   "field": "形态音系规则学习",
+   "innovations": [
+    "提出PARLA算法，将规则学习建模为空间剪枝问题，以规则+例外架构自动提取形态音系规则",
+    "在PARLA中引入TP与ACC两种度量，系统揭示泛化保守度对规则/例外数量的影响",
+    "证明跨方言规则可迁移性：埃及语训练的PARLA在苏丹语极低资源设定下仍优于Transformer"
+   ],
+   "benchmarks": [
+    "ECAL (Egyptian Colloquial Arabic Lexicon)",
+    "MADAR Sudanese Arabic (hand-annotated subset)",
+    "OOV-DEV / OOV-EVAL"
+   ]
+  }
+ }
 }

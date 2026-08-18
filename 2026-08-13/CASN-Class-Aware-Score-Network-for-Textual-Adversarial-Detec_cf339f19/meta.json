@@ -4,5 +4,31 @@
  "title": "CASN-Class-Aware-Score-Network-for-Textual-Adversarial-Detec",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 07:11:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ba43e0e3-93f5-417a-9d04-c928154cc21a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ba43e0e3-93f5-417a-9d04-c928154cc21a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:48:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "adversarial detection",
+    "textual adversarial",
+    "score-based generative model",
+    "denoising score matching",
+    "Langevin dynamics",
+    "supervised contrastive learning"
+   ],
+   "field": "文本对抗检测",
+   "innovations": [
+    "提出基于去噪分数匹配和Langevin动力学的文本对抗检测新范式",
+    "引入监督对比学习增强得分网络的类别感知能力",
+    "利用预测器-校正器交替迭代提升去噪质量和检测灵敏度"
+   ],
+   "benchmarks": [
+    "SST-2",
+    "IMDB",
+    "AG-NEWS"
+   ]
+  }
+ }
 }

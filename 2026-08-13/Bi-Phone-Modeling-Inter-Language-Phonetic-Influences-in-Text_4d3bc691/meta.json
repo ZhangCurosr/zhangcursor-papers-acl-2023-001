@@ -4,5 +4,30 @@
  "title": "Bi-Phone-Modeling-Inter-Language-Phonetic-Influences-in-Text",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-13 07:11:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/14f6427e-1c74-45ba-9f6e-29be189253bf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/14f6427e-1c74-45ba-9f6e-29be189253bf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:48:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "L1-L2 phonetic influence",
+    "spelling noise generation",
+    "FunGLUE benchmark",
+    "phoneme prediction pre-training",
+    "byte-level model robustness",
+    "round-trip transliteration"
+   ],
+   "field": "跨语言语音干扰与文本鲁棒性",
+   "innovations": [
+    "通过往返音译自动挖掘L1-L2音素混淆矩阵",
+    "提出Bi-Phone生成器合成符合母语干扰的拼写噪声",
+    "设计音素预测预训练任务大幅提升字节级模型的噪声鲁棒性"
+   ],
+   "benchmarks": [
+    "FunGLUE",
+    "SuperGLUE"
+   ]
+  }
+ }
 }

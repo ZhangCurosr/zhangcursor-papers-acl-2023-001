@@ -4,5 +4,33 @@
  "title": "A-Method-for-Studying-Semantic-Construal-in-Grammatical-Cons",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-08-13 14:54:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/43738fec-5d73-4683-ba7a-adca3efe2637.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/43738fec-5d73-4683-ba7a-adca3efe2637.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:46:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "semantic construal",
+    "contextual embeddings",
+    "psycholinguistic feature norms",
+    "interpretable spaces",
+    "grammatical constructions",
+    "AANN construction",
+    "subjecthood",
+    "feature projection"
+   ],
+   "field": "计算语义学与语言学交叉",
+   "innovations": [
+    "将上下文词嵌入投影到心理语言学特征规范空间，实现token级可解释语义特征预测",
+    "系统比较PLSR/FFNN/Label Propagation在上下文特征预测上的表现，给出方法选择指南",
+    "首次用LM上下文嵌入定量验证AANN构造的测量性 construal 和主语位置的去事性提升"
+   ],
+   "benchmarks": [
+    "SemCor sense differentiation",
+    "McRae/Buchanan homonym disambiguation",
+    "Universal Dependencies Treebank swapped subjects"
+   ]
+  }
+ }
 }

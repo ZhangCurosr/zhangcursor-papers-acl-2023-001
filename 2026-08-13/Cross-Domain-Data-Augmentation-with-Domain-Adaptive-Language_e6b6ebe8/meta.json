@@ -4,5 +4,32 @@
  "title": "Cross-Domain-Data-Augmentation-with-Domain-Adaptive-Language",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-13 07:10:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a4cf50cc-a7d8-4b5d-91a7-b935c32755a3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a4cf50cc-a7d8-4b5d-91a7-b935c32755a3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:49:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨域数据增强",
+    "方面级情感分析",
+    "领域自适应语言建模",
+    "伪标签",
+    "序列标注",
+    "无监督域适应"
+   ],
+   "field": "跨域自然语言处理",
+   "innovations": [
+    "提出三阶段DA²LM框架，统一生成与标注流程",
+    "设计DALM模型，在每个时间步同时预测下一token与当前token标签",
+    "基于概率采样的自回归生成策略，兼顾数据多样性与标注质量"
+   ],
+   "benchmarks": [
+    "SemEval Laptop",
+    "SemEval Restaurant",
+    "Device",
+    "Service"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Causal-Intervention-and-Counterfactual-Reasoning-for-Multi-m",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 07:10:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/188d4445-5f71-458d-b168-7db1d1fe8bfb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/188d4445-5f71-458d-b168-7db1d1fe8bfb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:48:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "假新闻检测",
+    "多模态",
+    "因果干预",
+    "反事实推理",
+    "去偏",
+    "后门调整",
+    "心理语言学偏差"
+   ],
+   "field": "多模态自然语言处理",
+   "innovations": [
+    "提出因果干预与反事实推理结合的去偏框架CCD",
+    "识别并形式化文本心理语言学偏差与图像单一偏差"
+   ],
+   "benchmarks": [
+    "Twitter",
+    "Pheme"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Controlling-Learned-Effects-to-Reduce-Spurious-Correlations",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 07:10:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/df151bc8-e94a-4b54-a2da-04bb268eb3bf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/df151bc8-e94a-4b54-a2da-04bb268eb3bf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:49:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "spurious correlations",
+    "causal inference",
+    "data augmentation",
+    "debiasing NLP",
+    "Riesz representer",
+    "treatment effect estimation"
+   ],
+   "field": "自然语言处理中的因果推理与去偏",
+   "innovations": [
+    "提出 Riesz Representer 双稳健 ATE 估计器，在高维文本低 overlap 场景下显著优于倾向得分方法",
+    "提出 FEAG 框架，通过反事实数据增强实现对分类器特征效应的可控约束，兼顾总准确率与少数群体准确率",
+    "将特征效应估计拓展至标注者偏见检测，展示方法的通用性"
+   ],
+   "benchmarks": [
+    "CivilComments Semi-Synthetic",
+    "CivilComments Subsampled",
+    "IMDB"
+   ]
+  }
+ }
 }

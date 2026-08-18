@@ -4,5 +4,34 @@
  "title": "Chain-of-Skills-A-Configurable-Model-for-Open-Domain-Questio",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-13 07:10:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1b1f89a1-a5d7-458a-9e55-91fe26071c5e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1b1f89a1-a5d7-458a-9e55-91fe26071c5e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:49:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Open-Domain Question Answering",
+    "Dense Retrieval",
+    "Multi-task Learning",
+    "Modular Architecture",
+    "Self-supervised Pretraining",
+    "Chain-of-Skills"
+   ],
+   "field": "开放域问答与检索",
+   "innovations": [
+    "模块化多技能检索框架，联合学习5种可复用检索技能并支持灵活链式组合推理",
+    "基于MHA的专家参数化设计，有效缓解多任务检索中的任务干扰",
+    "多任务自监督预训练策略，在Wikipedia上联合训练单次检索、扩展查询检索和实体链接"
+   ],
+   "benchmarks": [
+    "NQ",
+    "HotpotQA",
+    "OTT-QA",
+    "WebQ",
+    "EntityQuestions",
+    "SQuAD"
+   ]
+  }
+ }
 }

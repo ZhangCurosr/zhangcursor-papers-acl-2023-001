@@ -4,5 +4,33 @@
  "title": "A-Causal-Framework-to-Quantify-the-Robustness-of-Mathematica",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:10:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5a7a5bee-14e6-42df-b8c1-9b5a85e3ece3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5a7a5bee-14e6-42df-b8c1-9b5a85e3ece3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:46:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "因果推断",
+    "数学推理",
+    "鲁棒性评估",
+    "do干预",
+    "指令微调",
+    "语言模型行为测试",
+    "GPT-3",
+    "LLaMA"
+   ],
+   "field": "NLP模型可解释性与鲁棒性评估",
+   "innovations": [
+    "构建数学推理因果图并分离敏感性(TCE)与脆弱性(DCE)的双度量框架",
+    "首次在大规模模型上系统量化文本表面、操作数、运算符对预测的独立因果效应",
+    "揭示GPT-3 Davinci通过PPO指令微调实现鲁棒性与敏感性同步跃升、而LLaMA式微调效果有限的实证结论"
+   ],
+   "benchmarks": [
+    "ASDiv-A",
+    "MAWPS",
+    "SVAMP"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Binary-and-Ternary-Natural-Language-Generation",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:12:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3c444443-7122-40ef-8a34-0e1702642dde.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3c444443-7122-40ef-8a34-0e1702642dde.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:48:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "low-bit quantization",
+    "ternary network",
+    "binary transformer",
+    "text summarization",
+    "machine translation",
+    "activation quantization"
+   ],
+   "field": "语言模型压缩与高效推理",
+   "innovations": [
+    "提出统计max-entropy等距权重量化与弹性学习型激活量化的组合框架TBT，首次实现可在生成任务上训练的三元/二元Transformer",
+    "在BART/mBART上实现2-2-2与1-1-1极化设置，三元模型ROUGE-L仅落后全精度3.8分，二元仍产出有意义摘要/翻译",
+    "8-bit激活子设置（2-2-8、1-1-8）超越或匹配既有SOTA，证明方法在不同量化粒度下均有效"
+   ],
+   "benchmarks": [
+    "XSUM",
+    "CNN/DailyMail",
+    "WMT16 En-Ro"
+   ]
+  }
+ }
 }

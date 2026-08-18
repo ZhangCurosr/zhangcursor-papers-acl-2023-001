@@ -4,5 +4,31 @@
  "title": "AtTGen-Attribute-Tree-Generation-for-Real-World-Attribute-Jo",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-13 07:10:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7ad3838c-1633-4aa4-9505-fab604ee5737.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7ad3838c-1633-4aa4-9505-fab604ee5737.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:47:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Attribute Extraction",
+    "Tree Generation",
+    "Closed-World Assumption",
+    "Open-World Assumption",
+    "Span Copier",
+    "Joint Extraction"
+   ],
+   "field": "信息抽取与属性抽取",
+   "innovations": [
+    "首次将CWA/OWA/半开放属性提取统一建模为属性树生成问题",
+    "提出AtTGen文本到树生成模型，通过(r,v,n)路径顺序与指针复制机制避免NULL值并缓解暴露偏差",
+    "引入可选主体引导增强实体-属性绑定，以仅2M参数超越依赖大PLM的基线"
+   ],
+   "benchmarks": [
+    "MEPAVE",
+    "AE-110K",
+    "Re-CNShipNet"
+   ]
+  }
+ }
 }

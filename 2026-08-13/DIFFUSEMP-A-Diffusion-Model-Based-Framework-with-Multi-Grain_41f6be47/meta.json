@@ -4,5 +4,28 @@
  "title": "DIFFUSEMP-A-Diffusion-Model-Based-Framework-with-Multi-Grain",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 07:11:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cae05b45-14fe-4fe2-95c3-d6fd2bd38515.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cae05b45-14fe-4fe2-95c3-d6fd2bd38515.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:50:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "共情回复生成",
+    "扩散模型",
+    "可控文本生成",
+    "多粒度控制",
+    "对话系统"
+   ],
+   "field": "可控文本生成与对话系统",
+   "innovations": [
+    "提出多粒度控制信号（CM/IT/SF）实现从话语到Token级的共情表达引导",
+    "设计控制范围掩码策略将结构化控制嵌入扩散模型自注意力层",
+    "构建情感增强匹配方法在推理时获取控制信号候选"
+   ],
+   "benchmarks": [
+    "EMPATHETICDIALOGUE"
+   ]
+  }
+ }
 }

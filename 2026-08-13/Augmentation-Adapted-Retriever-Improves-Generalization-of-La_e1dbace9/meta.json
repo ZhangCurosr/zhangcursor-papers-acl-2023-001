@@ -4,5 +4,29 @@
  "title": "Augmentation-Adapted-Retriever-Improves-Generalization-of-La",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-13 07:11:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/62573a49-e532-4da5-abf1-dfef98444b10.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/62573a49-e532-4da5-abf1-dfef98444b10.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:47:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "retrieval-augmented language models",
+    "zero-shot generalization",
+    "dense retrieval",
+    "black-box LM adaptation",
+    "plug-in retriever"
+   ],
+   "field": "检索增强语言模型",
+   "innovations": [
+    "提出 AAR 通用检索插件，通过小源 LM 的 FiDAtt 分数学习 LM 偏好，无需目标 LM 微调即可提升零样本泛化",
+    "揭示不同 LM 偏好文档高度重叠（>55%），验证单源模型训练的检索器可服务于大规模目标 LM",
+    "证明 LM-preferred 文档与 human-preferred 文档互补，前者提供更丰富的推理视角而非仅包含直接答案"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "PopQA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Can-NLI-Provide-Proper-Indirect-Supervision-for-Low-resource",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-13 07:11:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/858e94ce-e308-4651-8667-b1a3c4bd0238.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/858e94ce-e308-4651-8667-b1a3c4bd0238.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:49:36",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Being-Right-for-Whose-Right-Reasons",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:10:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d50be98f-8399-4f83-9bd5-6ef2e1585960.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d50be98f-8399-4f83-9bd5-6ef2e1585960.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:47:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "explainability",
+    "fairness",
+    "rationale alignment",
+    "demographic bias",
+    "model interpretability",
+    "NLP fairness"
+   ],
+   "field": "自然语言处理中的公平性与可解释性",
+   "innovations": [
+    "构建首个人口统计学增强的 NLP rationale 标注语料库，覆盖6组年龄×族裔人群",
+    "提出 group-model rationale 对齐度量框架，揭示性能平权下推理依据的群体偏差",
+    "发现模型规模与跨人群 rationale 一致性呈负相关，蒸馏无法系统性改善公平性"
+   ],
+   "benchmarks": [
+    "DynaSent",
+    "SST-2",
+    "CoS-E"
+   ]
+  }
+ }
 }

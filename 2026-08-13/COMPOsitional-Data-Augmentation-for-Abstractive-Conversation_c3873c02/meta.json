@@ -4,5 +4,31 @@
  "title": "COMPOsitional-Data-Augmentation-for-Abstractive-Conversation",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-13 07:10:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bbc598f9-f5c8-47ff-81fe-0c349d608bb2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bbc598f9-f5c8-47ff-81fe-0c349d608bb2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:48:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话摘要",
+    "数据增强",
+    "组合式增强",
+    "自训练",
+    "联合训练",
+    "低资源NLP"
+   ],
+   "field": "对话摘要与数据增强",
+   "innovations": [
+    "提出子结构级组合数据增强框架COMPO，以话题片段和动作三元组为基本单元进行对话重组",
+    "引入基于Vote-k图评分的选择性检索策略，平衡相似性与多样性",
+    "探索自训练与联合训练两种噪声容忍范式，验证不同策略的有效性"
+   ],
+   "benchmarks": [
+    "SAMSum",
+    "DialogSum",
+    "CNN/DailyMail"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "A-Critical-Evaluation-of-Evaluations-for-Long-form-Question",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 07:11:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3ecb11ca-dcd2-4929-baad-673cec62b156.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3ecb11ca-dcd2-4929-baad-673cec62b156.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:46:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长文问答",
+    "评估方法",
+    "自动评估指标",
+    "专家标注",
+    "事实性",
+    "完整性"
+   ],
+   "field": "自然语言生成评估",
+   "innovations": [
+    "首个LFQA评估的系统性研究，涵盖专家人工评估和自动指标测试",
+    "构建首个专家标注的LFQA偏好数据集（140答案对）",
+    "证明现有自动指标无法可靠预测人类整体偏好，但部分指标在细粒度评估上有潜力"
+   ],
+   "benchmarks": [
+    "ELI5",
+    "HURDLES",
+    "WEBGPT"
+   ]
+  }
+ }
 }

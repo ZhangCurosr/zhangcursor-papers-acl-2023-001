@@ -4,5 +4,30 @@
  "title": "CORE-Cooperative-Training-of-Retriever-Reranker-for-Effectiv",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-13 07:11:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e777b261-e8e2-4420-9f4c-d000504fe0d0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e777b261-e8e2-4420-9f4c-d000504fe0d0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:48:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "响应选择",
+    "检索器-重排序器协同训练",
+    "Bi-encoder",
+    "Cross-encoder",
+    "知识蒸馏",
+    "两阶段检索"
+   ],
+   "field": "对话检索与响应选择",
+   "innovations": [
+    "提出CORE协同训练框架，联合优化检索器与重排序器",
+    "通过List-wise KL散度实现双向知识传递",
+    "在Ubuntu和DSTC7上显著提升单阶段与两阶段检索性能"
+   ],
+   "benchmarks": [
+    "Ubuntu Dialogue Corpus v2.0",
+    "DSTC7 Task 2"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Breeding-Machine-Translations-Evolutionary-approach-to-survi",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-13 07:10:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fe6ec3cd-4df5-4d07-9f09-a5e678bb3a24.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fe6ec3cd-4df5-4d07-9f09-a5e678bb3a24.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:48:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "机器翻译",
+    "遗传算法",
+    "MT评估指标",
+    "对抗样本",
+    "MBR解码",
+    "COMET"
+   ],
+   "field": "机器翻译评估与解码",
+   "innovations": [
+    "将遗传算法引入NMT假设生成，通过交叉变异产生全新译文而非仅重排",
+    "提出无先验假设的自动对抗样本搜索框架以揭示指标盲点",
+    "证明多指标组合（CMT20+QE+BLEU）可有效缓解单一指标过拟合并提升保留指标"
+   ],
+   "benchmarks": [
+    "newstest-18-head150",
+    "CzEng 2.0",
+    "WMT Metrics Task"
+   ]
+  }
+ }
 }
