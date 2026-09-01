@@ -4,5 +4,29 @@
  "title": "Joint-Constrained-Learning-with-Boundary-adjusting-for-Emoti",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:11:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/819ea125-e3d4-4c8e-ad9b-0861cdd7103a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/819ea125-e3d4-4c8e-ad9b-0861cdd7103a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:55:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Emotion-Cause Pair Extraction",
+    "Joint Constrained Learning",
+    "Boundary Adjusting",
+    "Imbalanced Data",
+    "Graph Convolutional Network",
+    "Constrained Learning"
+   ],
+   "field": "情感-原因关系抽取",
+   "innovations": [
+    "首次将联合约束学习应用于ECPE数据不平衡问题，通过标注/非对称/对比三种可微分约束优化表示层",
+    "提出边界调整机制，利用跨子任务特征对齐和情感引导矫正分类器决策边界偏差",
+    "在中文ECPE基准上取得Pair Extraction F1=77.37的最优结果，并对更不平衡数据具有鲁棒性"
+   ],
+   "benchmarks": [
+    "Chinese ECPE Benchmark (Xia & Ding, 2019)"
+   ]
+  }
+ }
 }

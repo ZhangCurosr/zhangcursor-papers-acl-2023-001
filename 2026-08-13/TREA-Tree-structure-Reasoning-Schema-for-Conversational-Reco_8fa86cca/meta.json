@@ -4,5 +4,28 @@
  "title": "TREA-Tree-structure-Reasoning-Schema-for-Conversational-Reco",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-08-13 07:11:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/edab3df7-481b-4857-ae13-ecdc0c774c1c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/edab3df7-481b-4857-ae13-ecdc0c774c1c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:00:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话推荐系统",
+    "知识图谱推理",
+    "树结构推理",
+    "因果建模",
+    "对话生成"
+   ],
+   "field": "对话推荐系统",
+   "innovations": [
+    "提出首个针对每个提及实体进行溯因推理的多层次可扩展推理树结构",
+    "设计隔离损失和对齐损失联合优化推理表示，防止KG嵌入塌缩并弥合异构表示鸿沟"
+   ],
+   "benchmarks": [
+    "ReDial",
+    "TG-ReDial"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Interpretable-Word-Sense-Representations-via-Definition-Gene",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-13 07:11:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/efb88622-e87b-4a20-aebf-866e10fa0818.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/efb88622-e87b-4a20-aebf-866e10fa0818.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:54:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "semantic change analysis",
+    "definition generation",
+    "interpretable representations",
+    "word sense representation",
+    "lexical semantics",
+    "DWUG"
+   ],
+   "field": "词义学与语义变化分析",
+   "innovations": [
+    "将自动生成的上下文定义作为可解释词汇表示，超越token/sentence embedding的语义相似度",
+    "提出基于原型定义选取的sense label方法，31%情况下优于典型usage方法",
+    "构建diachronic sense dynamics map实现可解释语义变化分析"
+   ],
+   "benchmarks": [
+    "DWUG English",
+    "WordNet",
+    "Oxford",
+    "CoDWoE"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Span-Selective-Linear-Attention-Transformers-for-Effective-a",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:12:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/27661ef7-10ef-4b01-b0f1-2feadb7974e5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/27661ef7-10ef-4b01-b0f1-2feadb7974e5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:59:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Dialogue State Tracking",
+    "Schema-Guided DST",
+    "Linear Attention",
+    "Span Pointer",
+    "Extractive DST",
+    "Robustness",
+    "Self-supervised Pretraining"
+   ],
+   "field": "任务型对话系统",
+   "innovations": [
+    "提出 Span Pointer Module，将预测空间约束到输入 span 并以单 pass 并行抽取全部槽值",
+    "基于窗口化线性注意力（Longformer）联合编码历史与 schema，使复杂度降至 O(w + n_global)",
+    "引入 Recurrent Span Selection 自监督预训练强化 query–span 对齐表示"
+   ],
+   "benchmarks": [
+    "SGD",
+    "SGD-X",
+    "MultiWOZ 2.2"
+   ]
+  }
+ }
 }

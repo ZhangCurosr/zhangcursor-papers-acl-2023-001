@@ -4,5 +4,10 @@
  "title": "PMAES-Prompt-mapping-Contrastive-Learning-for-Cross-prompt-A",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-13 07:10:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/da875077-13b7-4f37-9c86-b39b92ffe7c5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/da875077-13b7-4f37-9c86-b39b92ffe7c5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:56:31",
+  "chunks": 1
+ }
 }

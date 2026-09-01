@@ -4,5 +4,32 @@
  "title": "Robust-Multi-bit-Natural-Language-Watermarking-through-Invar",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-13 07:10:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/639addd8-d6c9-4e60-8cab-d4468787f7aa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/639addd8-d6c9-4e60-8cab-d4468787f7aa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:57:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自然语言水印",
+    "鲁棒水印",
+    "不变特征",
+    "填充模型",
+    "多比特嵌入",
+    "语义保真度"
+   ],
+   "field": "自然语言处理安全",
+   "innovations": [
+    "基于关键词和句法依赖的不变特征锚点嵌入策略",
+    "抗干扰填充模型通过reverse KL损失实现污染鲁棒性",
+    "算法化嵌入/提取框架大幅提升效率并实现高载荷"
+   ],
+   "benchmarks": [
+    "IMDB",
+    "Wikitext-2",
+    "Dracula",
+    "Wuthering Heights"
+   ]
+  }
+ }
 }

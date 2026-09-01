@@ -4,5 +4,33 @@
  "title": "Symbolic-Chain-of-Thought-Distillation-Small-Models-Can-Also",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-13 07:11:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c4b07f11-a59e-4147-af34-c27c22a89eae.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c4b07f11-a59e-4147-af34-c27c22a89eae.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:59:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "chain-of-thought distillation",
+    "small language models",
+    "symbolic knowledge distillation",
+    "self-consistency",
+    "commonsense reasoning",
+    "few-shot learning"
+   ],
+   "field": "语言模型推理与知识蒸馏",
+   "innovations": [
+    "提出SCoTD方法，将多条思维链蒸馏到125M-1.3B小模型使其获得CoT推理能力",
+    "发现每个样本采样N=30条推理链是性能提升的核心因素，优于单条精筛策略",
+    "系统验证蒸馏后小模型在contrast set和unseen task上的鲁棒泛化能力"
+   ],
+   "benchmarks": [
+    "CommonsenseQA",
+    "OpenBookQA",
+    "QuaRel",
+    "IMDB contrast set",
+    "SST-2"
+   ]
+  }
+ }
 }

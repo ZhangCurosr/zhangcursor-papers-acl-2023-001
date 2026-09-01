@@ -4,5 +4,31 @@
  "title": "SAFECONV-Explaining-and-Correcting-Conversational-Unsafe-Beh",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:12:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6fdc81cc-e7c7-45e3-835a-eb47ff915141.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6fdc81cc-e7c7-45e3-835a-eb47ff915141.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:57:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话安全",
+    "不安全片段标注",
+    "上下文安全重写",
+    "可解释安全检测",
+    "对话解毒",
+    "安全反馈强化学习"
+   ],
+   "field": "对话系统安全与可控生成",
+   "innovations": [
+    "首个同时提供 unsafe span 标注与 context-relevant 安全替代回复的中文明确三粒度多轮对话安全数据集",
+    "Checker-Tagger-MaskedChecker 可解释链路证明 unsafe spans 能有效解释不安全预测",
+    "基于 PPO 安全反馈微调的上下文安全重写器实现即插即用解毒并显著提升解毒率与语言质量"
+   ],
+   "benchmarks": [
+    "SAFECONV (自建)",
+    "COLD",
+    "Baidu Checker"
+   ]
+  }
+ }
 }

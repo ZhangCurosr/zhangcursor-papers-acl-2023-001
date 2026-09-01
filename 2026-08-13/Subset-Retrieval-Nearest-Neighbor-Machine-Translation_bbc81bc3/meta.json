@@ -4,5 +4,10 @@
  "title": "Subset-Retrieval-Nearest-Neighbor-Machine-Translation",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:12:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/167e02f2-cc16-4717-b282-e1454dbccff6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/167e02f2-cc16-4717-b282-e1454dbccff6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:00:03",
+  "chunks": 1
+ }
 }

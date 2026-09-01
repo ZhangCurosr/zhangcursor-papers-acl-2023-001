@@ -4,5 +4,10 @@
  "title": "Subjective-Crowd-Disagreements-for-Subjective-Data-Uncoverin",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:11:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/94ea44e0-7788-44e9-b9b7-682a9982b46b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/94ea44e0-7788-44e9-b9b7-682a9982b46b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:59:52",
+  "chunks": 1
+ }
 }

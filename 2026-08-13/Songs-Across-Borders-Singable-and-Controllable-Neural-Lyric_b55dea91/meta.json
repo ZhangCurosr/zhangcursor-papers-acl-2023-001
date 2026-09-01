@@ -4,5 +4,30 @@
  "title": "Songs-Across-Borders-Singable-and-Controllable-Neural-Lyric",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:10:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fbf24ca3-06b1-4e0f-a88f-382114becf48.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fbf24ca3-06b1-4e0f-a88f-382114becf48.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:58:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "lyric translation",
+    "constrained neural machine translation",
+    "prompt-based control",
+    "back-translation",
+    "rhyme control",
+    "word boundary"
+   ],
+   "field": "音乐文本机器翻译",
+   "innovations": [
+    "将歌词翻译形式化为长度/押韵/词边界三重prompt约束的NMT任务，提出语言对无关的prompt驱动控制框架",
+    "首次系统证明反向解码显著提升prompt押韵控制效果并设计段落级押韵排序方案",
+    "证实回译适配在低资源歌词场景下显著优于域内去噪预训练"
+   ],
+   "benchmarks": [
+    "LyricsTranslate平行歌词数据集",
+    "Chinese Lyric Corpus单语歌词"
+   ]
+  }
+ }
 }

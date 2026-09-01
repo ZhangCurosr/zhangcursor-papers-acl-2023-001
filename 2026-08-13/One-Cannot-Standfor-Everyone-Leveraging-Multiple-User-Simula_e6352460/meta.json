@@ -4,5 +4,29 @@
  "title": "One-Cannot-Standfor-Everyone-Leveraging-Multiple-User-Simula",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:12:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f165757a-1ed6-4fed-a7a3-641d0d53ae56.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f165757a-1ed6-4fed-a7a3-641d0d53ae56.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:55:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "task-oriented dialogue",
+    "user simulator",
+    "reinforcement learning",
+    "multi-armed bandit",
+    "dialogue system training",
+    "multi-simulator"
+   ],
+   "field": "任务导向对话系统",
+   "innovations": [
+    "首次提出多用户模拟器协同训练的MUST框架",
+    "将MUST建模为MAB问题并提出自适应采样算法MUST_adaptive",
+    "设计基于性能评估的动态分布更新机制平衡探索与利用"
+   ],
+   "benchmarks": [
+    "MultiWOZ Restaurant Domain"
+   ]
+  }
+ }
 }

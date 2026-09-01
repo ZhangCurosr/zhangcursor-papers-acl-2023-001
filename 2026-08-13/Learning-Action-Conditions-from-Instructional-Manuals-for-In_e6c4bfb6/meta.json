@@ -4,5 +4,31 @@
  "title": "Learning-Action-Conditions-from-Instructional-Manuals-for-In",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-08-13 07:11:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4cf12c6f-11f0-427b-adfe-b68c95cfbb32.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4cf12c6f-11f0-427b-adfe-b68c95cfbb32.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:55:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "动作条件推理",
+    "弱监督",
+    "前置条件",
+    "后置条件",
+    "程序文本理解",
+    "时序推理",
+    "自训练"
+   ],
+   "field": "程序文本理解与自然语言推理",
+   "innovations": [
+    "提出动作条件推理任务并构建密集标注数据集",
+    "设计基于实体追踪/关键词/共指/时序的四重弱监督启发式方法",
+    "量化上下文建模对跨步骤条件依赖推断的显著价值"
+   ],
+   "benchmarks": [
+    "WikiHow annotated test-set",
+    "Instructables zero-shot transfer"
+   ]
+  }
+ }
 }

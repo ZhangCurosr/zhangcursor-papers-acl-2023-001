@@ -4,5 +4,30 @@
  "title": "PVGRU-Generating-Diverse-and-Relevant-Dialogue-Responses-via",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 07:11:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6e4f927f-dd51-4191-b160-f0ceb2fd8a03.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6e4f927f-dd51-4191-b160-f0ceb2fd8a03.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:56:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话生成",
+    "变分方法",
+    "RNN",
+    "多样性建模",
+    "伪变分机制",
+    "多轮对话"
+   ],
+   "field": "对话系统",
+   "innovations": [
+    "提出PVGRU组件，通过循环汇总变量聚合序列累积分布变化，避免后验坍缩",
+    "设计一致性损失和重建损失替代KL散度优化潜在变量，保证训练-推理一致性",
+    "构建层次对话模型PVHD，在词级和话语级同时建模对话多样性"
+   ],
+   "benchmarks": [
+    "DailyDialog",
+    "DSTC7-AVSD"
+   ]
+  }
+ }
 }

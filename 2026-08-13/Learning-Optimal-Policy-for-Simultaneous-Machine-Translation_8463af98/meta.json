@@ -4,5 +4,32 @@
  "title": "Learning-Optimal-Policy-for-Simultaneous-Machine-Translation",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 07:10:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4db2539f-ebe3-402a-b91c-c20a4f326efe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4db2539f-ebe3-402a-b91c-c20a4f326efe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:55:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Simultaneous Machine Translation",
+    "策略学习",
+    "二分搜索",
+    "在线策略构造",
+    "延迟-质量权衡",
+    "显式监督"
+   ],
+   "field": "同步机器翻译",
+   "innovations": [
+    "基于中点凹性的二分搜索在线构造最优翻译策略，无需外部监督",
+    "将搜索得到的最优策略转化为READ/WRITE动作序列，为Agent提供显式监督信号",
+    "翻译模型与策略搜索交替优化，在全延迟场景下统一生成译文"
+   ],
+   "benchmarks": [
+    "IWSLT15 En-Vi",
+    "IWSLT15 Vi-En",
+    "IWSLT14 De-En",
+    "IWSLT14 En-De"
+   ]
+  }
+ }
 }

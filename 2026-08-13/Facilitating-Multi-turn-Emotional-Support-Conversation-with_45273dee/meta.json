@@ -4,5 +4,30 @@
  "title": "Facilitating-Multi-turn-Emotional-Support-Conversation-with",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-13 07:10:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d72cbd2b-422e-46fd-ab2d-2ce0235f9c01.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d72cbd2b-422e-46fd-ab2d-2ce0235f9c01.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:54:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "emotional support conversation",
+    "reinforcement learning",
+    "mixture of experts",
+    "positive emotion elicitation",
+    "dialogue coherence",
+    "multi-turn dialogue",
+    "reward design"
+   ],
+   "field": "多轮情感支持对话",
+   "innovations": [
+    "将多轮ESC形式化为积极情绪激发过程，设计MoE-based RL模型SUPPORTER",
+    "构造对话级/轮次级情绪支持奖励与双视角对话连贯性奖励联合优化策略",
+    "提出自动化的cES/tES/cDC/fDC指标并辅以交互人类评估验证"
+   ],
+   "benchmarks": [
+    "ESConv"
+   ]
+  }
+ }
 }

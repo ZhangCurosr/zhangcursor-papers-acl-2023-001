@@ -4,5 +4,34 @@
  "title": "FEDLEGAL-The-First-Real-World-Federated-Learning-Benchmark-f",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:11:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e99c6c91-94a1-4c94-bf00-47079f49ae6e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e99c6c91-94a1-4c94-bf00-47079f49ae6e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:55:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Federated Learning",
+    "Legal NLP",
+    "Benchmark",
+    "Non-IID",
+    "Privacy Attack",
+    "Cross-Silo"
+   ],
+   "field": "联邦学习与法律NLP交叉",
+   "innovations": [
+    "首个面向法律NLP的真实世界联邦学习基准FEDLEGAL",
+    "构建兼顾全局协同与本地个性化的双轨评估体系",
+    "提供首个法律领域隐私攻击数据集FEDLPA及梯度泄露实证分析"
+   ],
+   "benchmarks": [
+    "FEDLCP",
+    "FEDLAM",
+    "FEDLER",
+    "FEDLRE",
+    "FEDLJP",
+    "FEDLPA"
+   ]
+  }
+ }
 }

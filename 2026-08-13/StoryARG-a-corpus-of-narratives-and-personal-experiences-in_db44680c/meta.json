@@ -4,5 +4,34 @@
  "title": "StoryARG-a-corpus-of-narratives-and-personal-experiences-in",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 07:11:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ebf5b8af-7815-4bd4-8e94-dab28447212b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ebf5b8af-7815-4bd4-8e94-dab28447212b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:58:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "computational argumentation",
+    "narrative in argument",
+    "personal experience annotation",
+    "argument effectiveness",
+    "subjectivity in NLP",
+    "StoryARG",
+    "storytelling corpus"
+   ],
+   "field": "计算论证与叙事分析",
+   "innovations": [
+    "构建 StoryARG 双视角标注数据集，首次系统刻画论证中叙事的论证功能与叙事属性",
+    "在回归模型中显式建模 annotator 主观差异，揭示叙事有效性的高度个人化偏好",
+    "发现 SEARCH FOR SOLUTION 类叙事与情节/情感/长度正向关联，虚构叙事在可信度相关功能中显著降效"
+   ],
+   "benchmarks": [
+    "StoryARG 自建数据集",
+    "ChangeMyView",
+    "RegulationRoom",
+    "Europolis",
+    "NYT Comments"
+   ]
+  }
+ }
 }

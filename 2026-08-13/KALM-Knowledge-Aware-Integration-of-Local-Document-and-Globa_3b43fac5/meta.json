@@ -4,5 +4,32 @@
  "title": "KALM-Knowledge-Aware-Integration-of-Local-Document-and-Globa",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-13 07:10:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7c5e2e5d-80c6-4034-bc93-276a1df58336.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7c5e2e5d-80c6-4034-bc93-276a1df58336.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:55:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识图谱",
+    "长文档理解",
+    "上下文融合",
+    "知识感知语言模型",
+    "知识图谱推理"
+   ],
+   "field": "知识增强的自然语言理解",
+   "innovations": [
+    "首次联合建模本地/文档级/全局三层知识感知上下文",
+    "提出知识共指机制与ContextFusion交互层实现跨上下文信息交换"
+   ],
+   "benchmarks": [
+    "SemEval",
+    "Allsides",
+    "SLN",
+    "LUN",
+    "RCVP-Random",
+    "RCVP-TimeBased"
+   ]
+  }
+ }
 }

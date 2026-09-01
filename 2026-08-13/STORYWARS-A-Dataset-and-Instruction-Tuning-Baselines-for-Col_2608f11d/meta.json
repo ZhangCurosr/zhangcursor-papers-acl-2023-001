@@ -4,5 +4,31 @@
  "title": "STORYWARS-A-Dataset-and-Instruction-Tuning-Baselines-for-Col",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-13 07:11:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0e8bc279-20f3-4bb2-be65-c673a360edad.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0e8bc279-20f3-4bb2-be65-c673a360edad.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:57:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "协作故事",
+    "指令微调",
+    "多任务学习",
+    "故事理解",
+    "故事生成",
+    "零样本学习"
+   ],
+   "field": "对话与故事生成",
+   "innovations": [
+    "提出首个大规模开放域协作故事数据集STORYWARS（4万+故事，9千+作者）",
+    "构建覆盖理解+生成、全监督+少样本+零样本的101任务统一基准",
+    "首次证明指令微调结合单任务精调在全监督场景下可稳健提升多任务性能"
+   ],
+   "benchmarks": [
+    "STORYWARS",
+    "BIG-bench",
+    "LOT benchmark"
+   ]
+  }
+ }
 }
