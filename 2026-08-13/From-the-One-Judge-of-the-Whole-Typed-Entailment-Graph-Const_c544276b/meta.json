@@ -4,5 +4,34 @@
  "title": "From-the-One-Judge-of-the-Whole-Typed-Entailment-Graph-Const",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 07:11:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/14a5bf79-f617-40c7-ab2f-66ed0971f57b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/14a5bf79-f617-40c7-ab2f-66ed0971f57b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 07:22:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "蕴含图",
+    "谓词生成",
+    "自然语言推理",
+    "生成式语言模型",
+    "传递性约束",
+    "知识图谱构建"
+   ],
+   "field": "自然语言推理与知识表示",
+   "innovations": [
+    "首个基于生成式LM的蕴含图构建方法，以谓词生成分解语料稀疏瓶颈",
+    "以球体空间重叠概率建模蕴含关系，内建可微传递性约束",
+    "提出EG知识注入RTE模型的可解释下游评估范式"
+   ],
+   "benchmarks": [
+    "Levy/Holt",
+    "Levy/Holt-r",
+    "Berant",
+    "SherLIiC",
+    "SNLI",
+    "SciTail"
+   ]
+  }
+ }
 }

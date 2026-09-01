@@ -4,5 +4,34 @@
  "title": "HuCurl-Human-induced-Curriculum-Discovery",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-13 07:10:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5c4460b6-8be8-4404-9370-2486087a49f0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5c4460b6-8be8-4404-9370-2486087a49f0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 07:23:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "课程学习",
+    "课程发现",
+    "非单调课程",
+    "标注熵",
+    "难度感知训练",
+    "超参数优化",
+    "模型可迁移性",
+    "样本加权"
+   ],
+   "field": "自然语言处理训练策略",
+   "innovations": [
+    "提出课程发现新范式，在参数空间自动搜索最优训练样本权重调度策略",
+    "利用标注熵和损失作为难度先验，发现非单调课程能有效缓解遗忘问题",
+    "证明在小型数据集或模型上发现的课程可迁移至更大规模场景"
+   ],
+   "benchmarks": [
+    "SNLI",
+    "ChaosNLI",
+    "Twitter",
+    "Reddit"
+   ]
+  }
+ }
 }

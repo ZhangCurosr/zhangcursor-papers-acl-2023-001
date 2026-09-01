@@ -4,5 +4,29 @@
  "title": "History-Semantic-Graph-Enhanced-Conversational-KBQA-with-Tem",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 07:11:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f5c827bb-bcfd-4526-999d-62548e9ac86e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f5c827bb-bcfd-4526-999d-62548e9ac86e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 07:23:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话式KBQA",
+    "历史语义图",
+    "时序建模",
+    "图神经网络",
+    "语义解析",
+    "多轮对话理解"
+   ],
+   "field": "对话式知识问答",
+   "innovations": [
+    "首次将历史语义图引入对话KBQA，用GNN建模长程实体交互",
+    "设计上下文感知编码器，结合时序嵌入与多粒度聚合",
+    "端到端多任务框架，联合优化逻辑形式生成与实体识别"
+   ],
+   "benchmarks": [
+    "CSQA"
+   ]
+  }
+ }
 }

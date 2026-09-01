@@ -4,5 +4,32 @@
  "title": "Generating-EDU-Extracts-for-Plan-Guided-Summary-Re-Ranking",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-13 07:11:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d1205cd9-fa49-4d68-bed3-8bec3fdd1a68.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d1205cd9-fa49-4d68-bed3-8bec3fdd1a68.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 07:21:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "abstractive summarization",
+    "content planning",
+    "plan-guided generation",
+    "re-ranking",
+    "EDU extraction",
+    "diverse decoding",
+    "two-stage summarization"
+   ],
+   "field": "文本摘要与内容选择",
+   "innovations": [
+    "提出 EDU 层级显式内容计划生成器，将内容选择与文本实现解耦以提升候选多样性与质量",
+    "设计计划引导的摘要生成器，通过非似然训练增强对内容计划的遵循性",
+    "将抽取式内容计划与 LLM 提示结合，在 GPT-3.5 上实现 ROUGE 提升"
+   ],
+   "benchmarks": [
+    "CNN/Dailymail",
+    "New York Times Annotated Corpus",
+    "Xsum"
+   ]
+  }
+ }
 }

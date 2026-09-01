@@ -4,5 +4,32 @@
  "title": "Does-GPT-3-Grasp-Metaphors-Identifying-Metaphor-Mappings-wit",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:10:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ea21f2a8-64fc-41c3-8024-1021c2dc49c7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ea21f2a8-64fc-41c3-8024-1021c2dc49c7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 07:18:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "conceptual metaphor",
+    "GPT-3",
+    "source domain prediction",
+    "few-shot prompting",
+    "metaphor mapping",
+    "error analysis",
+    "cross-lingual"
+   ],
+   "field": "计算隐喻学",
+   "innovations": [
+    "首次以free-form生成方式探测GPT-3在无预定义标签下识别隐喻源域的能力",
+    "提出9类错误分类体系诊断模型隐喻理解缺陷",
+    "在多数据集跨语言场景（英/西语）下系统评估GPT-3的隐喻映射预测性能"
+   ],
+   "benchmarks": [
+    "Metaphor List",
+    "VUA Corpus",
+    "LCC Dataset"
+   ]
+  }
+ }
 }

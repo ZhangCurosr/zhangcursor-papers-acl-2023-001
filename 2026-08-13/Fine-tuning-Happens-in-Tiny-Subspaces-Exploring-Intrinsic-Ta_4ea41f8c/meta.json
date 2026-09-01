@@ -4,5 +4,28 @@
  "title": "Fine-tuning-Happens-in-Tiny-Subspaces-Exploring-Intrinsic-Ta",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-13 07:10:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1d9e197a-549f-44ad-999a-e2a9358cf8a1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1d9e197a-549f-44ad-999a-e2a9358cf8a1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 07:20:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "parameter-efficient fine-tuning",
+    "intrinsic task-specific subspace",
+    "PLM interpretability",
+    "SVD trajectory analysis",
+    "outlier dimensions",
+    "GLUE benchmark"
+   ],
+   "field": "预训练语言模型高效微调与可解释性",
+   "innovations": [
+    "通过SVD提取微调轨迹主方向显式挖掘任务特定低维子空间",
+    "发现并验证子空间微调中涌现的异常参数维度对任务知识诱导的关键作用"
+   ],
+   "benchmarks": [
+    "GLUE"
+   ]
+  }
+ }
 }

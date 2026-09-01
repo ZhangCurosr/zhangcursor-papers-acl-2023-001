@@ -4,5 +4,30 @@
  "title": "Few-shot-Adaptation-Works-with-UnpredicTable-Data",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 07:10:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5d115261-802e-494e-b6ec-aa4a57845a27.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5d115261-802e-494e-b6ec-aa4a57845a27.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 07:20:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "few-shot learning",
+    "multitask adaptation",
+    "web tables",
+    "domain transfer",
+    "meta-learning"
+   ],
+   "field": "少样本学习与多任务自适应",
+   "innovations": [
+    "自动化从互联网表格构建超大规模 FSL 数据集（413K 任务）",
+    "揭示窄领域数据可超越多样化人工数据的 FSL 迁移效能",
+    "挑战领域相似性假设，证明无关领域数据能提升通用少样本能力"
+   ],
+   "benchmarks": [
+    "MetaICL 52 tasks",
+    "CrossFit Few-Shot Gym",
+    "FLEX benchmark"
+   ]
+  }
+ }
 }

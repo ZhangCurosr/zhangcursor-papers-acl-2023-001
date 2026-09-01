@@ -4,5 +4,26 @@
  "title": "Improving-Continual-Relation-Extraction-by-Distinguishing-An",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:11:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7427f1fc-78d9-4fa4-a0b0-c42248425dbc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7427f1fc-78d9-4fa4-a0b0-c42248425dbc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 07:24:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "continual relation extraction",
+    "catastrophic forgetting",
+    "analogous relations",
+    "memory-based continual learning",
+    "focal knowledge distillation",
+    "contrastive learning"
+   ],
+   "field": "持续关系抽取 / 类比关系区分",
+   "innovations": [
+    "memory-insensitive prototype 缓解存样过拟合",
+    "focal knowledge distillation 聚焦难区分类比对",
+    "memory augmentation 实体替换+句拼接将存样量×4"
+   ]
+  }
+ }
 }

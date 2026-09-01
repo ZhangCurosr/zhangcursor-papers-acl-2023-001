@@ -4,5 +4,36 @@
  "title": "Gradient-based-Intra-attention-Pruning-on-Pre-trained-Langua",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 07:11:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ac0b1b77-9b81-456b-8834-de2854cc37dc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ac0b1b77-9b81-456b-8834-de2854cc37dc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 07:22:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型压缩",
+    "结构化剪枝",
+    "知识蒸馏",
+    "预训练语言模型",
+    "梯度剪枝",
+    "注意力剪枝",
+    "模型加速"
+   ],
+   "field": "自然语言处理模型压缩",
+   "innovations": [
+    "提出 intra-attention 行级剪枝以扩展结构搜索空间并支持异质头尺寸",
+    "设计结构正则化（StructReg）抑制碎片化以获得更低推理延迟",
+    "提出梯度分离策略（GradSep）解耦蒸馏与剪枝的重要性评分"
+   ],
+   "benchmarks": [
+    "GLUE",
+    "SQuAD 1.1",
+    "CoNLL 2003",
+    "OCNLI",
+    "TNEWS",
+    "CMRC 2018",
+    "DRCD"
+   ]
+  }
+ }
 }

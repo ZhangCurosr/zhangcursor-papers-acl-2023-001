@@ -4,5 +4,28 @@
  "title": "Did-You-Read-the-Instructions-Rethinking-the-Effectiveness-o",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-13 07:11:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4b685d7d-ba24-4ed5-8c46-7c07b2e61412.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4b685d7d-ba24-4ed5-8c46-7c07b2e61412.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 07:17:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "instruction learning",
+    "task definition",
+    "prompt compression",
+    "meta-tuning",
+    "zero-shot generalization"
+   ],
+   "field": "指令学习与提示工程",
+   "innovations": [
+    "提出STDC句法引导压缩算法自动压缩冗余定义内容",
+    "设计结构化triplet格式和meta-tuning提升模型对定义的理解"
+   ],
+   "benchmarks": [
+    "NIv2",
+    "SUPER-NATURALINSTRUCTION"
+   ]
+  }
+ }
 }

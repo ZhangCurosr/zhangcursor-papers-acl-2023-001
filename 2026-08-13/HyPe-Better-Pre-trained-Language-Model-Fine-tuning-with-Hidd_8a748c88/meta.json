@@ -4,5 +4,32 @@
  "title": "HyPe-Better-Pre-trained-Language-Model-Fine-tuning-with-Hidd",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 07:11:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/24bba12c-93f0-4f29-b7e8-0794d9983048.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/24bba12c-93f0-4f29-b7e8-0794d9983048.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 07:24:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "PLM 微调",
+    "隐表示扰动",
+    "过拟合缓解",
+    "GLUE",
+    "表示坍缩",
+    "正则化"
+   ],
+   "field": "预训练语言模型高效微调",
+   "innovations": [
+    "在 Transformer 各层隐状态间直接注入无偏随机噪声以增强微调鲁棒性",
+    "证明 HyPe 与 R-Drop/R3F/ChildTuning/NoisyTune 等方法正交可叠加"
+   ],
+   "benchmarks": [
+    "GLUE",
+    "advGLUE",
+    "SNLI",
+    "SciTaiL",
+    "SICK"
+   ]
+  }
+ }
 }

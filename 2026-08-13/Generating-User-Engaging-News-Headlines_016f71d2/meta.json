@@ -4,5 +4,31 @@
  "title": "Generating-User-Engaging-News-Headlines",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 07:11:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d9424c65-b9d8-4180-80d1-c0ea0d7c1e49.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d9424c65-b9d8-4180-80d1-c0ea0d7c1e49.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 07:22:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "个性化新闻标题生成",
+    "签名短语",
+    "对比学习",
+    "用户画像",
+    "文本生成评估",
+    "合成数据"
+   ],
+   "field": "个性化自然语言生成",
+   "innovations": [
+    "提出三阶段签名短语导向的个性化标题生成框架，通过可学习的相关性函数从用户阅读历史中提取标志性短语连接用户兴趣与文章内容",
+    "在无标注数据上通过对比学习训练签名短语选择器，避免人工标注成本",
+    "构建综合的自动化+人工多维度评估体系，涵盖用户适配、文章忠实度和事实一致性"
+   ],
+   "benchmarks": [
+    "Newsroom",
+    "Gigaword",
+    "PENS"
+   ]
+  }
+ }
 }

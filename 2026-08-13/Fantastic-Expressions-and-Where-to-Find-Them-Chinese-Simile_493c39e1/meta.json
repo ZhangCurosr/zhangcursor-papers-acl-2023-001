@@ -4,5 +4,32 @@
  "title": "Fantastic-Expressions-and-Where-to-Find-Them-Chinese-Simile",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:10:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ff6a3a6d-12e9-4d17-bf98-8a374d886beb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ff6a3a6d-12e9-4d17-bf98-8a374d886beb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 07:20:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "明喻生成",
+    "可控文本生成",
+    "中文NLP",
+    "修辞计算",
+    "数据集构建",
+    "认知语言学"
+   ],
+   "field": "自然语言生成",
+   "innovations": [
+    "提出可控明喻生成（CSG）新任务，支持多约束组合生成",
+    "构建GraCe高分辨率中文明喻数据集（61.3k样本，8个标注元素，98.9%明喻准确率）",
+    "设计Scorer车辆检索模块，结合认知属性匹配与词嵌入距离重排"
+   ],
+   "benchmarks": [
+    "prefix generation实验对比CS、CMC数据集",
+    "CSG任务对比ANT、LFM检索基线",
+    "自动评估：ROUGE、BLEU、BERTScore、PPL",
+    "人工评估：流畅度、创意性、一致性、总体评分"
+   ]
+  }
+ }
 }

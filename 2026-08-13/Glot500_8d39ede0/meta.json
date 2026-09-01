@@ -4,5 +4,31 @@
  "title": "Glot500",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:11:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cbb35d40-e3f8-42ad-b4b7-996173474781.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cbb35d40-e3f8-42ad-b4b7-996173474781.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 07:24:12",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "多语言预训练",
+    "低资源语言",
+    "跨语言迁移",
+    "语言多样性",
+    "NLP基准"
+   ],
+   "field": "多语言自然语言处理",
+   "innovations": [
+    "构建覆盖500+语言的Glot500预训练数据集，显著提升低资源语言表现",
+    "提出Glot500预训练模型，在大量低资源语言上较XLM-R取得30-60分提升",
+    "建立Glot500-bench系统性评测基准，覆盖数百种语言-脚本组合"
+   ],
+   "benchmarks": [
+    "Glot500-bench",
+    "Tatoeba",
+    "Bible Sentence Parallel Corpus",
+    "XTREME"
+   ]
+  }
+ }
 }

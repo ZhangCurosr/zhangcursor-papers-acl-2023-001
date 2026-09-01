@@ -4,5 +4,30 @@
  "title": "Dynamic-Routing-Transformer-Network-for-Multimodal-Sarcasm-D",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-13 07:11:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3135a217-d2f7-4102-ab21-09a7009df290.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3135a217-d2f7-4102-ab21-09a7009df290.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 07:18:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态讽刺检测",
+    "动态路由",
+    "跨模态不一致性",
+    "层次化共同注意力",
+    "Transformer",
+    "多模态融合",
+    "MSD数据集"
+   ],
+   "field": "多模态自然语言处理",
+   "innovations": [
+    "首次将动态路由机制引入多模态讽刺检测，提出DynRT-Net",
+    "设计层次化共同注意力机制，使不同网络层逐步关注不同粒度的图像-文本对齐关系",
+    "提出基于图像全局特征的路由器，动态生成共注意力掩码的加权分布"
+   ],
+   "benchmarks": [
+    "MSD (Multimodal Sarcasm Detection)"
+   ]
+  }
+ }
 }

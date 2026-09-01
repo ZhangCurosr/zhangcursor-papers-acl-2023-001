@@ -4,5 +4,34 @@
  "title": "Dynamic-and-Efficient-Inference-for-Text-Generation-via-BERT",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-13 07:11:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c6709f31-7b2e-4e06-93c0-1b3ba152f754.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c6709f31-7b2e-4e06-93c0-1b3ba152f754.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 07:18:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "非自回归生成",
+    "动态剪枝",
+    "BERT族模型",
+    "神经机器翻译",
+    "文本生成"
+   ],
+   "field": "高效文本生成与模型压缩",
+   "innovations": [
+    "CTC生成器与Levenshtein编辑器的联合训练框架实现首步初始化与迭代精化",
+    "动态块剪枝支持推理时自适应调整模型大小",
+    "BERT族模型经特定输入掩码设计适配NAR文本生成任务"
+   ],
+   "benchmarks": [
+    "IWSLT'14 De-En",
+    "WMT'16 En-Ro",
+    "WMT'14 En-De",
+    "XSum",
+    "MSNews",
+    "SQuAD 1.1",
+    "MSQG"
+   ]
+  }
+ }
 }

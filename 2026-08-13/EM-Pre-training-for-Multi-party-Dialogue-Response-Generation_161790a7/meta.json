@@ -4,5 +4,29 @@
  "title": "EM-Pre-training-for-Multi-party-Dialogue-Response-Generation",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:12:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/892836e0-d57b-4ae0-bc53-2eadc7ee6f77.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/892836e0-d57b-4ae0-bc53-2eadc7ee6f77.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 07:20:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多_party对话",
+    "响应生成",
+    "预训练",
+    "EM算法",
+    "隐变量",
+    "Ubuntu IRC"
+   ],
+   "field": "多_party对话理解与生成",
+   "innovations": [
+    "首次提出基于EM算法的多_party对话响应生成预训练方法",
+    "将addressee建模为隐变量并通过Hard EM迭代优化",
+    "证明期望完整对数似然为不完全对数似然的下界"
+   ],
+   "benchmarks": [
+    "Ubuntu IRC Benchmark"
+   ]
+  }
+ }
 }

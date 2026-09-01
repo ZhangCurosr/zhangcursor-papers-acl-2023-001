@@ -4,5 +4,30 @@
  "title": "Helping-a-Friend-or-Supporting-a-Cause-Disentangling-Active",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-08-13 07:11:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dc6ae700-0644-409c-ae2b-b9b42c4aef2c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dc6ae700-0644-409c-ae2b-b9b42c4aef2c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 07:23:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "共同赞助",
+    "图神经网络",
+    "政治文本分析",
+    "多任务学习",
+    "议员表征"
+   ],
+   "field": "计算社会科学",
+   "innovations": [
+    "首次区分积极/被动共同赞助动机",
+    "BERT+Bi-LSTM处理超长政治文档",
+    "零样本投票预测达SOTA"
+   ],
+   "benchmarks": [
+    "美国国会112-115届",
+    "投票预测",
+    "共同赞助分类"
+   ]
+  }
+ }
 }

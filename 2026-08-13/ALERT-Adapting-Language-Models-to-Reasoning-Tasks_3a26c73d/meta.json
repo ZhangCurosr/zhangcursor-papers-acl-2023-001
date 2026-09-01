@@ -4,5 +4,37 @@
  "title": "ALERT-Adapting-Language-Models-to-Reasoning-Tasks",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:10:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/547706af-18c7-4c2d-9df1-baf673fa4aef.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/547706af-18c7-4c2d-9df1-baf673fa4aef.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 07:17:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reasoning benchmark",
+    "chain-of-thought finetuning",
+    "language model evaluation",
+    "prompt template robustness",
+    "in-context learning",
+    "reasoning skill transfer"
+   ],
+   "field": "大语言模型推理能力评估",
+   "innovations": [
+    "提出 ALERT 基准，首个覆盖20数据集10种推理技能的细粒度评测框架",
+    "三组对照实验（预训练/FT/CoT-FT）解构微调机制：技能习得vs模板记忆",
+    "揭示CoT微调可缓解模板过拟合但仍不如预训练鲁棒的发现"
+   ],
+   "benchmarks": [
+    "ALERT",
+    "NIV2",
+    "BIG-Bench",
+    "MMLU",
+    "Curriculum",
+    "GSM8K",
+    "ProofWriter",
+    "StrategyQA",
+    "ESNLI"
+   ]
+  }
+ }
 }

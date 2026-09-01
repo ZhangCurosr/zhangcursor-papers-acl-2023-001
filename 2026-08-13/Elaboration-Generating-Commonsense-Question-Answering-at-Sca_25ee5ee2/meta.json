@@ -4,5 +4,33 @@
  "title": "Elaboration-Generating-Commonsense-Question-Answering-at-Sca",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 07:10:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/802c3aa9-e41b-4cf2-8465-b561149abe98.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/802c3aa9-e41b-4cf2-8465-b561149abe98.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 07:19:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "commonsense QA",
+    "knowledge distillation",
+    "alternating optimization",
+    "elaboration generation",
+    "hard EM",
+    "GPT-3",
+    "small language models"
+   ],
+   "field": "常识推理与知识增强问答",
+   "innovations": [
+    "交替优化扩写生成器与答案预测器的双模块框架",
+    "基于答案评分的选择性知识蒸馏与采样-筛选机制",
+    "以不到0.5%的GPT-3参数量在多个常识问答基准上逼近或超越GPT-3"
+   ],
+   "benchmarks": [
+    "CommonsenseQA",
+    "CommonsenseQA 2.0",
+    "Scientific Commonsense (QASC)",
+    "OpenBookQA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Hierarchical-Verbalizer-for-Few-Shot-Hierarchical-Text-Class",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-13 07:11:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/50fc382a-3b92-4eb5-be4f-11dd64729e0a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/50fc382a-3b92-4eb5-be4f-11dd64729e0a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 07:23:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "层次文本分类",
+    "少样本学习",
+    "Prompt Tuning",
+    "Verbalizer",
+    "预训练语言模型",
+    "层次对比学习"
+   ],
+   "field": "层次自然语言处理",
+   "innovations": [
+    "首次定义path-based K-shot HTC设置与P-metric路径一致性评估",
+    "提出HierVerb多verbalizer框架，将层次结构知识通过约束链和对比损失直接注入可学习向量",
+    "无需额外GNN参数即可在极端少样本条件下激发PLM层次先验知识"
+   ],
+   "benchmarks": [
+    "WOS",
+    "DBPedia",
+    "RCV1-V2"
+   ]
+  }
+ }
 }

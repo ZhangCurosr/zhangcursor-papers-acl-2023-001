@@ -4,5 +4,33 @@
  "title": "HistRED-A-Historical-Document-Level-Relation-Extraction-Data",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 07:12:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/110096b9-bbce-4c45-ab8b-7a46da6a7a79.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/110096b9-bbce-4c45-ab8b-7a46da6a7a79.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 07:23:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "关系抽取",
+    "历史NLP",
+    "双语模型",
+    "文档级RE",
+    "韩文",
+    "汉文",
+    "预训练语言模型"
+   ],
+   "field": "历史文献信息抽取",
+   "innovations": [
+    "首个面向历史文献的双语文档级关系抽取数据集HistRED，基于朝鲜王朝《使行录》构建",
+    "引入序列级SL机制支持多长度上下文评估，通过证据句切分自包含子文本",
+    "设计跨注意力双语联合RE模型，融合KLUE与AnchiBERT显著提升单语基线性能"
+   ],
+   "benchmarks": [
+    "HistRED",
+    "DocRED",
+    "KLUE-RE",
+    "I.PHI"
+   ]
+  }
+ }
 }
