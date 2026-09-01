@@ -4,5 +4,31 @@
  "title": "We-Understand-Elliptical-Sentences-and-Language-Models-Shoul",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-08-13 14:54:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/607e689a-5aa5-463c-8e1b-23ba086e24f5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/607e689a-5aa5-463c-8e1b-23ba086e24f5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:51:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ellipsis",
+    "thematic fit",
+    "language models",
+    "GPT-2",
+    "BERT",
+    "event knowledge"
+   ],
+   "field": "语言模型认知能力评测",
+   "innovations": [
+    "创建 ELLie 数据集——首个覆盖多类省略结构并引入主题适配度梯度的评测基准",
+    "提出句子典型性/filler典型性/动词检索三任务递进评测框架",
+    "揭示 LMs 依赖表层词汇共现而非结构重建处理省略句的系统性局限"
+   ],
+   "benchmarks": [
+    "ELLie",
+    "DTFit",
+    "BLiMP"
+   ]
+  }
+ }
 }

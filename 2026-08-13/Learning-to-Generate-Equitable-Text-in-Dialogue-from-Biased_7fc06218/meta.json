@@ -4,5 +4,28 @@
  "title": "Learning-to-Generate-Equitable-Text-in-Dialogue-from-Biased",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-13 07:11:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c0e85ee6-239a-47a7-82a4-24782b7cabbb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c0e85ee6-239a-47a7-82a4-24782b7cabbb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:50:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话公平性",
+    "计算学习理论",
+    "偏差缓解",
+    "测试散度",
+    "Score Parity"
+   ],
+   "field": "对话系统中的公平性",
+   "innovations": [
+    "首次形式化定义对话生成中的Score Parity公平性概念",
+    "证明最小化有偏人类数据的测试散度可同时优化公平性和拟人性",
+    "揭示数据增广降采样可能因降低数据效率而损害公平性学习效果"
+   ],
+   "benchmarks": [
+    "GuessWhat?!"
+   ]
+  }
+ }
 }

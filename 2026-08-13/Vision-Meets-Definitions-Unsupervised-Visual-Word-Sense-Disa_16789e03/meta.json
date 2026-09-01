@@ -4,5 +4,30 @@
  "title": "Vision-Meets-Definitions-Unsupervised-Visual-Word-Sense-Disa",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-08-13 14:55:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5b1b6185-7057-4d47-9644-3828564f84ca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5b1b6185-7057-4d47-9644-3828564f84ca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:51:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉词义消歧",
+    "VWSD",
+    "贝叶斯推理",
+    "图像-文本匹配",
+    "上下文感知定义生成",
+    "词义消歧",
+    "大语言模型",
+    "零样本学习"
+   ],
+   "field": "多模态语义理解",
+   "innovations": [
+    "将贝叶斯链式分解引入零样本ITM模型，无需训练即实现词义知识注入（C2D+D2I），避免pipeline级联误差",
+    "提出上下文感知定义生成（CADG），利用GPT-3在prompt中融合上下文解决OOV词的释义生成问题，显著提升OOV案例性能"
+   ],
+   "benchmarks": [
+    "SemEval-2023 Task 1 VWSD (SE23)"
+   ]
+  }
+ }
 }

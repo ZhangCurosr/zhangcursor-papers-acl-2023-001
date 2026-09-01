@@ -4,5 +4,30 @@
  "title": "Query-Enhanced-Knowledge-Intensive-Conversation-via-Unsuperv",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-13 07:10:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/10b050e9-7455-4a7f-ab77-f4d69cf47a5d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/10b050e9-7455-4a7f-ab77-f4d69cf47a5d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:51:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "knowledge-intensive conversation",
+    "query generation",
+    "unsupervised joint training",
+    "retrieval-augmented generation",
+    "dialogue system"
+   ],
+   "field": "知识密集型对话",
+   "innovations": [
+    "提出首个无监督联合训练查询生成与响应生成的 QKConv 框架，无需查询标注",
+    "融合上下文敏感与响应敏感双引导机制，解决联合训练中的退化问题",
+    "在 QReCC 和 WoW 上超越有监督 SOTA，同时全面领先所有无监督方法"
+   ],
+   "benchmarks": [
+    "QReCC",
+    "SMD",
+    "WoW"
+   ]
+  }
+ }
 }

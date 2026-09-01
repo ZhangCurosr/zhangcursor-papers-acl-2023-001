@@ -4,5 +4,36 @@
  "title": "What-Makes-Pre-trained-Language-Models-Better-Zero-shot-Lear",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-08-13 14:55:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/27e63a7d-8c45-4720-8bdd-cc55b7b75150.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/27e63a7d-8c45-4720-8bdd-cc55b7b75150.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:52:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zero-shot learning",
+    "prompt learning",
+    "perplexity",
+    "template selection",
+    "text classification",
+    "cloze-style prompting"
+   ],
+   "field": "零样本自然语言处理",
+   "innovations": [
+    "提出 Perplection 方法，在无标注条件下通过困惑度自动选择最优 prompt 模板",
+    "建立语言差异与困惑度的关联假设，揭示模板有效性可被语言模型本身评估",
+    "在真实零样本场景下实现 annotation-free 的模板筛选，超越依赖开发集的现有方法"
+   ],
+   "benchmarks": [
+    "DOUBAN",
+    "WEIBO",
+    "WAIMAI",
+    "ECOMMERCE",
+    "FewCLUE",
+    "SST-2",
+    "TweetEval",
+    "AG News"
+   ]
+  }
+ }
 }

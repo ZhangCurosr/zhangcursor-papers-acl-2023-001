@@ -4,5 +4,30 @@
  "title": "What-Is-Overlap-Knowledge-in-Event-Argument-Extraction-APE-A",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-08-13 14:54:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ff65644b-ab02-4219-8e3e-26d77fac46ab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ff65644b-ab02-4219-8e3e-26d77fac46ab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:52:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Event Argument Extraction",
+    "Cross-dataset Transfer Learning",
+    "Parameter-Efficient Tuning",
+    "Few-shot Learning",
+    "Catastrophic Forgetting"
+   ],
+   "field": "事件抽取与信息提取",
+   "innovations": [
+    "首次明确定义跨数据集EAE重叠知识并基于实体类型公共基础分解任务",
+    "组装Prefix与Adapter分别保存重叠知识与特有知识以克服灾难性遗忘",
+    "设计Stressing Entity Type Prompt桥接两阶段学习以激发重叠知识"
+   ],
+   "benchmarks": [
+    "ACE05",
+    "RAMS",
+    "WikiEvents"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "What-Are-You-Token-About-Dense-Retrieval-as-Distributions-Ov",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-08-13 14:55:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e3e9eabc-8c53-46b9-af26-acfbade0bdea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e3e9eabc-8c53-46b9-af26-acfbade0bdea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:51:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "密集检索",
+    "词汇投影",
+    "token遗忘",
+    "词法富集",
+    "可解释性",
+    "零样本检索"
+   ],
+   "field": "信息检索与语义匹配",
+   "innovations": [
+    "提出词汇投影框架，将密集检索表示投影到词表空间以揭示隐式语义",
+    "发现token遗忘现象并建立其与检索失败的关联",
+    "提出推理时词法富集方法LE，零训练提升密集检索跨域性能"
+   ],
+   "benchmarks": [
+    "BEIR",
+    "MTEB Retrieval",
+    "Natural Questions",
+    "EntityQuestions",
+    "TriviaQA",
+    "SQuAD"
+   ]
+  }
+ }
 }

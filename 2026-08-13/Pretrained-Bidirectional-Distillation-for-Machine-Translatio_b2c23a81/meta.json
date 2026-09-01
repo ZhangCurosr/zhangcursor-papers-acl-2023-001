@@ -4,5 +4,33 @@
  "title": "Pretrained-Bidirectional-Distillation-for-Machine-Translatio",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:11:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/98ce9829-9c8e-4033-983c-8a63fdc2282a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/98ce9829-9c8e-4033-983c-8a63fdc2282a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:50:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "机器翻译",
+    "知识蒸馏",
+    "预训练语言模型",
+    "多语言翻译",
+    "零样本翻译",
+    "掩码语言模型"
+   ],
+   "field": "神经机器翻译 / 预训练模型迁移",
+   "innovations": [
+    "提出PBD框架将预训练MLM的全局双向token概率持续蒸馏至NMT编码器与解码器",
+    "设计自蒸馏掩码语言预训练机制，单次前向生成全序列概率分布以解决非掩码位置概率偏置",
+    "复用token embedding实现参数高效的跨架构知识迁移，无需预训练LM与NMT结构一致"
+   ],
+   "benchmarks": [
+    "WMT14/17/18/19",
+    "OPUS-100",
+    "IWSLT2014",
+    "PC32",
+    "MC24"
+   ]
+  }
+ }
 }

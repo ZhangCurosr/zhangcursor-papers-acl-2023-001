@@ -4,5 +4,29 @@
  "title": "UniLG-A-Unified-Structure-aware-Framework-for-Lyrics-Generat",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-13 14:55:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c5c1bccd-db6e-4fe4-ba04-32674330bf3c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c5c1bccd-db6e-4fe4-ba04-32674330bf3c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:51:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "歌词生成",
+    "结构感知",
+    "复合模板",
+    "循环一致性损失",
+    "音乐生成"
+   ],
+   "field": "音乐信息处理与自然语言生成交叉",
+   "innovations": [
+    "提出融合文本与音乐信息的复合模板实现统一多条件歌词生成",
+    "设计两阶段Pipeline通过中间模板桥接节奏源与歌词",
+    "引入循环一致性损失增强音乐信息对结构建模的促进"
+   ],
+   "benchmarks": [
+    "Song8k",
+    "Lyric-Template Dataset"
+   ]
+  }
+ }
 }
