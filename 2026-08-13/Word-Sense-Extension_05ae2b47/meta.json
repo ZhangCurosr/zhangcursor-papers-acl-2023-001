@@ -4,5 +4,31 @@
  "title": "Word-Sense-Extension",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-08-13 14:54:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cdfd4220-af04-4bed-a29d-4901f1460b5f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cdfd4220-af04-4bed-a29d-4901f1460b5f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:45:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Word Sense Extension",
+    "Word Sense Disambiguation",
+    "Chaining",
+    "Polysemy",
+    "Few-shot Learning",
+    "Cognitive Modeling"
+   ],
+   "field": "词汇语义学与自然语言处理",
+   "innovations": [
+    "提出词义扩展(WSE)范式，将多义词划分为源/靶伪token模拟义项衍生过程",
+    "设计基于原型和范例的链式概率模型捕捉系统性义项扩展规律",
+    "证明WSE学习可显著提升WSD模型对稀有词义的识别能力"
+   ],
+   "benchmarks": [
+    "Wikitext-103",
+    "SemEval WSD datasets (SE02/03/07/13/15)",
+    "WordNet"
+   ]
+  }
+ }
 }

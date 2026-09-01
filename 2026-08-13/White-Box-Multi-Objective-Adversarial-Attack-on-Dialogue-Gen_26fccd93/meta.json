@@ -4,5 +4,10 @@
  "title": "White-Box-Multi-Objective-Adversarial-Attack-on-Dialogue-Gen",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-08-13 14:54:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/03ec1ff5-7d19-4a45-abd3-2a7a269d8e0d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/03ec1ff5-7d19-4a45-abd3-2a7a269d8e0d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:45:47",
+  "chunks": 1
+ }
 }

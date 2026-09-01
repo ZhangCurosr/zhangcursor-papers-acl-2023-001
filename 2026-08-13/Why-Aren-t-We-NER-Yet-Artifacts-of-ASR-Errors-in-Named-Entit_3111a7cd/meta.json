@@ -4,5 +4,31 @@
  "title": "Why-Aren-t-We-NER-Yet-Artifacts-of-ASR-Errors-in-Named-Entit",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-08-13 14:54:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fca9591b-095b-4f4e-8bbf-cb801a7d41ad.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fca9591b-095b-4f4e-8bbf-cb801a7d41ad.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:45:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ASR错误",
+    "命名实体识别",
+    "语音转录本",
+    "误差分析",
+    "评估指标",
+    "自然语言处理"
+   ],
+   "field": "语音自然语言处理",
+   "innovations": [
+    "首次系统构建ASR-NLP联合误差分类体系，揭示NER模型在自发语音转录本上的固有缺陷",
+    "量化分析ASR插入/替换/删除错误对实体识别率的破坏性影响",
+    "批判性论证F1分数在对话转录本NER评估中的局限性"
+   ],
+   "benchmarks": [
+    "Earnings-21",
+    "SWNE",
+    "OntoNotes"
+   ]
+  }
+ }
 }

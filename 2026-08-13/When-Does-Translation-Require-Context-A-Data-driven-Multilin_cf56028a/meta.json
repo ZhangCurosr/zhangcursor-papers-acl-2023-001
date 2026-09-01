@@ -4,5 +4,31 @@
  "title": "When-Does-Translation-Require-Context-A-Data-driven-Multilin",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-08-13 14:54:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0082bbc2-a4d2-4a82-a509-15251a792398.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0082bbc2-a4d2-4a82-a509-15251a792398.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:45:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "上下文感知机器翻译",
+    "语篇分析",
+    "多语言评测",
+    "P-CXMI",
+    "MuDA基准",
+    "词级上下文依赖"
+   ],
+   "field": "多语言机器翻译与文档级NLP",
+   "innovations": [
+    "提出P-CXMI词级别上下文依赖度量指标，实现从语料级到词级的粒度扩展",
+    "构建MuDA多语言语篇感知基准，覆盖14种语言对5类语篇现象的自动标注",
+    "通过数据驱动方法首次系统发现动词形态一致性为重要语篇歧义现象"
+   ],
+   "benchmarks": [
+    "TED Talks平行语料",
+    "MuDA Benchmark",
+    "compare-mt评估工具"
+   ]
+  }
+ }
 }

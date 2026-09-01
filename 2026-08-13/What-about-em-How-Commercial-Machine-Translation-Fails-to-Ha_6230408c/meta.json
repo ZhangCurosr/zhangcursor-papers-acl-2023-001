@@ -4,5 +4,32 @@
  "title": "What-about-em-How-Commercial-Machine-Translation-Fails-to-Ha",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-08-13 14:54:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c186a431-dfd6-4073-bfeb-3044541dddde.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c186a431-dfd6-4073-bfeb-3044541dddde.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:45:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "机器翻译",
+    "新式代词",
+    "身份包容性",
+    "性别偏见",
+    "非二元群体",
+    "跨语言评估"
+   ],
+   "field": "包容性自然语言处理",
+   "innovations": [
+    "首次系统性评估商业MT对新式代词（xe/ey/vam/emojiself/numberself等）的翻译处理能力",
+    "揭示新式代词引入导致语法正确率最高下降16pp、语义一致性最高下降47pp的系统性损害",
+    "通过n=49非二元群体调查证明用户代词翻译偏好高度多样化，不存在统一共识"
+   ],
+   "benchmarks": [
+    "WinoMT",
+    "Google Translate",
+    "Microsoft Bing",
+    "DeepL Translator"
+   ]
+  }
+ }
 }
