@@ -4,5 +4,10 @@
  "title": "On-Evaluating-Multilingual-Compositional-Generalization-with",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 07:10:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cae0c1b6-9c03-43a1-9a04-b3587f14c738.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cae0c1b6-9c03-43a1-9a04-b3587f14c738.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:40:58",
+  "chunks": 1
+ }
 }

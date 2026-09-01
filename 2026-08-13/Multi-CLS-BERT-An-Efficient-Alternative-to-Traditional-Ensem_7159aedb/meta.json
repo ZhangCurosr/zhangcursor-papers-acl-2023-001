@@ -4,5 +4,32 @@
  "title": "Multi-CLS-BERT-An-Efficient-Alternative-to-Traditional-Ensem",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:11:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f299dea6-1f8b-4c83-ad4d-ec4106aedb35.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f299dea6-1f8b-4c83-ad4d-ec4106aedb35.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:40:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multi-CLS BERT",
+    "模型集成",
+    "预训练",
+    "多样性",
+    "GLUE",
+    "SuperGLUE",
+    "对比学习",
+    "参数高效"
+   ],
+   "field": "预训练语言模型与高效集成",
+   "innovations": [
+    "提出 Multi-CLS BERT，在单模型中用多个 CLS 嵌入实现近似集成效果，推理开销接近单模型",
+    "设计 MCQT 损失，融合最相似 facet 和求和 facet 双重视角的对比预训练",
+    "提出架构内 per-CLS 线性层 + 微调重参数化聚合，从根本上防止多 CLS 表示塌陷"
+   ],
+   "benchmarks": [
+    "GLUE",
+    "SuperGLUE"
+   ]
+  }
+ }
 }

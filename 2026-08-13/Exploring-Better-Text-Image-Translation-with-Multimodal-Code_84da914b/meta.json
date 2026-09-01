@@ -4,5 +4,31 @@
  "title": "Exploring-Better-Text-Image-Translation-with-Multimodal-Code",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:11:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/340c7e18-b4f8-4f5f-9990-bbe5cca3b724.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/340c7e18-b4f8-4f5f-9990-bbe5cca3b724.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:36:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text Image Translation",
+    "Multimodal Codebook",
+    "Multimodal Machine Translation",
+    "OCR Error Propagation",
+    "Neural Discrete Representation",
+    "Multi-stage Training"
+   ],
+   "field": "多模态机器翻译",
+   "innovations": [
+    "提出首个中文-英文TIT数据集OCRMT30K",
+    "设计多模态码本通过图像补偿OCR错误",
+    "构建四阶段训练框架充分利用多源数据"
+   ],
+   "benchmarks": [
+    "OCRMT30K",
+    "WMT22 ZH-EN",
+    "ICDAR19-LSVT"
+   ]
+  }
+ }
 }

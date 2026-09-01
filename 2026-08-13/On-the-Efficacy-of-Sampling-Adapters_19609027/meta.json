@@ -4,5 +4,10 @@
  "title": "On-the-Efficacy-of-Sampling-Adapters",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-13 07:10:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c5238c55-253c-49d4-831e-a35a4f203462.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c5238c55-253c-49d4-831e-a35a4f203462.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:41:00",
+  "chunks": 1
+ }
 }

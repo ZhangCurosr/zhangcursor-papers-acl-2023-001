@@ -4,5 +4,31 @@
  "title": "Do-PLMs-Know-and-Understand-Ontological-Knowledge",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-13 07:11:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/87b759d1-dfa9-4bad-ad8a-5c784bae492a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/87b759d1-dfa9-4bad-ad8a-5c784bae492a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:36:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "本体知识",
+    "知识探测",
+    "预训练语言模型",
+    "prompt探测",
+    "RDFS蕴含",
+    "逻辑推理"
+   ],
+   "field": "语言模型知识探测与解释",
+   "innovations": [
+    "构建首个系统性PLM本体知识记忆与推理探测基准OntoProbe-PLMs",
+    "提出基于前提记忆分档（EX/IM/NO）的三维推理实验设计",
+    "揭示PLMs对本体paraphrase理解的系统性不足"
+   ],
+   "benchmarks": [
+    "OntoProbe-PLMs",
+    "DBpedia",
+    "Wikidata"
+   ]
+  }
+ }
 }

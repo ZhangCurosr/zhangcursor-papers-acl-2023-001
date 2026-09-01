@@ -4,5 +4,31 @@
  "title": "MS-DETR-Natural-Language-Video-Localization-with-Sampling-Mo",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-13 07:10:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1bc5668a-a40f-41da-b128-4c3ea8de3426.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1bc5668a-a40f-41da-b128-4c3ea8de3426.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:38:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自然语言视频定位",
+    "Moment-Moment Interaction",
+    "DETR",
+    "Anchor Highlight Attention",
+    "多尺度编码器",
+    "时序定位"
+   ],
+   "field": "视频-语言理解",
+   "innovations": [
+    "提出锚点引导的 moment 采样与动态交互机制，突破 moment 局部性假设",
+    "设计多尺度视觉-语言编码器，通过 sequence-reduced attention 和 temporal merging 实现层级化文本增强视频特征",
+    "将 DETR 范式适配至 NLVL 任务，引入 anchor highlight attention 和 TrIoU focal loss 解决监督稀疏与尺度不匹配问题"
+   ],
+   "benchmarks": [
+    "ActivityNet Captions",
+    "TACoS",
+    "Charades-STA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Multi-VALUE-A-Framework-for-Cross-Dialectal-English-NLP",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 07:11:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/aca01d8f-0046-4153-9887-0de132562903.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/aca01d8f-0046-4153-9887-0de132562903.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:39:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "方言鲁棒性",
+    "跨方言NLP",
+    "数据增强",
+    "形态句法扰动",
+    "公平语言技术",
+    "英语变体"
+   ],
+   "field": "低资源与自然语言处理公平性",
+   "innovations": [
+    "基于eWAVE的189条可解释形态句法扰动规则实现50种英语方言的系统化转换",
+    "首次系统性揭示QA/语义解析/机器翻译三任务跨方言性能差距并验证合成数据增强有效性"
+   ],
+   "benchmarks": [
+    "CoQA",
+    "Spider",
+    "WMT19"
+   ]
+  }
+ }
 }

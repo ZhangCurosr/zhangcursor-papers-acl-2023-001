@@ -4,5 +4,29 @@
  "title": "Memory-efficient-NLLB-200-Language-specific-Expert-Pruning-o",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 07:11:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2adbf66e-4e77-4e2a-a4ee-df720e39d6ae.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2adbf66e-4e77-4e2a-a4ee-df720e39d6ae.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:39:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture of Experts",
+    "机器翻译",
+    "模型剪枝",
+    "多语言翻译",
+    "NLLB-200",
+    "专家稀疏化"
+   ],
+   "field": "大规模多语言神经机器翻译",
+   "innovations": [
+    "提出无微调的MoE专家剪枝策略，可移除80%专家且几乎不损失翻译质量",
+    "在NLLB-200中实证发现语言特异性专家并证明其跨语言共享规律",
+    "发现解码器可比编码器更激进剪枝（最优3:1非平衡比例）"
+   ],
+   "benchmarks": [
+    "FLORES-200"
+   ]
+  }
+ }
 }

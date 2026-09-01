@@ -4,5 +4,31 @@
  "title": "Exploring-How-Generative-Adversarial-Networks-Learn-Phonolog",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-13 07:11:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d5535216-ae7c-4aa6-9448-ce6f1ae1922a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d5535216-ae7c-4aa6-9448-ce6f1ae1922a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:35:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "GAN",
+    "phonology",
+    "ciwGAN",
+    "nasality",
+    "interpretability",
+    "latent space",
+    "speech representation"
+   ],
+   "field": "语音音系表征学习",
+   "innovations": [
+    "跨语言对比验证ciwGAN对contrastive/non-contrastive特征的差异化编码",
+    "揭示latent variable间交互效应挑战一对一映射claim",
+    "发现训练数据频率分布影响音系表征系统"
+   ],
+   "benchmarks": [
+    "TIMIT",
+    "SIWIS"
+   ]
+  }
+ }
 }

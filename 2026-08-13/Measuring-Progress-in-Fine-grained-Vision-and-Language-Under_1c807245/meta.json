@@ -4,5 +4,33 @@
  "title": "Measuring-Progress-in-Fine-grained-Vision-and-Language-Under",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-13 07:10:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3b951dbf-9745-4af3-9cb1-a0f082ed4bb9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3b951dbf-9745-4af3-9cb1-a0f082ed4bb9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:39:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fine-grained vision-language",
+    "pretraining dynamics",
+    "object-centric modeling",
+    "benchmark evaluation",
+    "contrastive learning"
+   ],
+   "field": "多模态预训练与评估",
+   "innovations": [
+    "首次在统一细粒度基准上横向对比多个VLM，揭示建模创新优于数据规模化",
+    "提出L_VMA与L_bbox的可控消融，解耦数据质量与损失设计的独立贡献",
+    "系统揭示细粒度技能训练的波动性与任务间低相关性，挑战单一checkpoint评估范式"
+   ],
+   "benchmarks": [
+    "SVO-Probes",
+    "VALSE",
+    "VSR",
+    "Winoground",
+    "Flickr30K",
+    "COCO"
+   ]
+  }
+ }
 }

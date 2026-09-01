@@ -4,5 +4,32 @@
  "title": "Making-More-of-Little-Data-Improving-Low-Resource-Automatic",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 07:11:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3c1dc516-1cef-45d8-bb55-4c4cea0df804.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3c1dc516-1cef-45d8-bb55-4c4cea0df804.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:39:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "低资源自动语音识别",
+    "自训练",
+    "数据增强",
+    "XLS-R",
+    "TTS增强",
+    "少数语言"
+   ],
+   "field": "低资源语音识别",
+   "innovations": [
+    "系统性验证自训练在极低资源（24分钟标注）少数语言ASR中的有效性，实现最高20.5%相对WER下降",
+    "探索TTS数据增强在低资源ASR中的应用，实现最高25.5%相对WER下降",
+    "证明连续预训练（CPT）性价比低于数据增强，为低资源语音技术研究提供成本效益参考"
+   ],
+   "benchmarks": [
+    "Gronings",
+    "West-Frisian",
+    "Besemah",
+    "Nasal"
+   ]
+  }
+ }
 }

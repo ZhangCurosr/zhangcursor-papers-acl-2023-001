@@ -4,5 +4,32 @@
  "title": "FAA-Fine-grained-Attention-Alignment-for-Cascade-Document-Ra",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-13 07:10:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/49c30354-2a52-415a-b993-88615923ffe2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/49c30354-2a52-415a-b993-88615923ffe2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:36:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Document Ranking",
+    "Cascade Ranking",
+    "Fine-grained Attention Alignment",
+    "Knowledge Distillation",
+    "Passage Selection",
+    "Cross-Encoder",
+    "Dual-Encoder"
+   ],
+   "field": "信息检索/文档排序",
+   "innovations": [
+    "利用Cross-Encoder排序器的段落级自注意力分数作为伪标签，通过KL散度对齐Dual-Encoder选择器的输出分布",
+    "将选择器的段落相关度分数加权融合到排序器的协同匹配表示中，实现异构模块互补",
+    "梯度阻断策略保证排序主任务性能不受蒸馏损失干扰"
+   ],
+   "benchmarks": [
+    "MS MARCO DEV",
+    "TREC DL 2019",
+    "TREC DL 2020"
+   ]
+  }
+ }
 }

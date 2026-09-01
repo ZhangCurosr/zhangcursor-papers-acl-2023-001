@@ -4,5 +4,30 @@
  "title": "Extractive-is-not-Faithful-An-Investigation-of-Broad-Unfaith",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-13 07:10:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/48b3012f-9c46-4796-8019-294f5ef7ed9f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/48b3012f-9c46-4796-8019-294f5ef7ed9f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:36:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "抽取式摘要",
+    "忠实度评估",
+    "核心指代",
+    "话语结构",
+    "自然语言生成评估",
+    "CNN/DailyMail"
+   ],
+   "field": "文本摘要与事实一致性评估",
+   "innovations": [
+    "提出抽取式摘要广义不忠实的五类错误类型学",
+    "构建1600例多系统人工标注的不忠实评估数据集",
+    "设计EXTEVAL指标，在抽取式摘要忠实度检测上显著优于现有指标"
+   ],
+   "benchmarks": [
+    "CNN/DM",
+    "SummEval"
+   ]
+  }
+ }
 }

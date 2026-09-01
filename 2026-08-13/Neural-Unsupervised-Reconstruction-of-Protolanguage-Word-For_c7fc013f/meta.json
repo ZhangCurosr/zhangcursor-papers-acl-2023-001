@@ -4,5 +4,10 @@
  "title": "Neural-Unsupervised-Reconstruction-of-Protolanguage-Word-For",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 07:10:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3b72f857-12d0-413f-a456-1edd0263c81a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3b72f857-12d0-413f-a456-1edd0263c81a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:40:50",
+  "chunks": 1
+ }
 }

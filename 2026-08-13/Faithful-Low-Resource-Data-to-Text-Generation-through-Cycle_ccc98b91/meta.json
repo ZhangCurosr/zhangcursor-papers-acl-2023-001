@@ -4,5 +4,32 @@
  "title": "Faithful-Low-Resource-Data-to-Text-Generation-through-Cycle",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-13 07:11:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3d25ac9a-f852-4e45-ba5a-206351f89691.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3d25ac9a-f852-4e45-ba5a-206351f89691.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:36:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "数据到文本生成",
+    "循环训练",
+    "低资源NLP",
+    "忠实度评估",
+    "PARENT",
+    "T5"
+   ],
+   "field": "低资源数据到文本生成",
+   "innovations": [
+    "端到端T5循环训练无需外部NER模块",
+    "100样本即逼近全监督性能",
+    "揭示50%实体重叠阈值条件"
+   ],
+   "benchmarks": [
+    "WebNLG",
+    "E2E",
+    "WTQ",
+    "WSQL"
+   ]
+  }
+ }
 }

@@ -4,5 +4,28 @@
  "title": "On-Prefix-tuning-for-Lightweight-Out-of-distribution-Detecti",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-13 07:10:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8d7f4eab-1f78-4216-af64-443ecfef4c24.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8d7f4eab-1f78-4216-af64-443ecfef4c24.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:40:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "OOD检测",
+    "前缀微调",
+    "参数高效",
+    "无监督学习",
+    "NLP"
+   ],
+   "field": "自然语言处理-域外检测",
+   "innovations": [
+    "提出PTO框架实现无需微调PLM参数的轻量级OOD检测",
+    "设计标签和目标OO D数据的扩展机制提升检测性能"
+   ],
+   "benchmarks": [
+    "CLINC150",
+    "IMDB-Yelp"
+   ]
+  }
+ }
 }

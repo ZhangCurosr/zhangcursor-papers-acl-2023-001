@@ -4,5 +4,33 @@
  "title": "Natural-Language-to-Code-Generation-in-Interactive-Data-Scie",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:12:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/995a0d28-e76c-4e4a-ae7b-d892572f19c4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/995a0d28-e76c-4e4a-ae7b-d892572f19c4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:40:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "代码生成",
+    "数据科学",
+    "自然语言到代码",
+    "Jupyter笔记本",
+    "pandas",
+    "大型语言模型",
+    "程序合成"
+   ],
+   "field": "代码生成与程序合成",
+   "innovations": [
+    "提出ARCADE基准，包含简洁真实意图和多轮上下文依赖的pandas代码生成问题",
+    "开发PACHINCO 62B两阶段微调代码LM，显著优于公开模型",
+    "探索逐步分解和NL解释提示策略，提升代码多样性和可解释性"
+   ],
+   "benchmarks": [
+    "ARCADE",
+    "HUMANEVAL",
+    "MBPP",
+    "TRANSCODER"
+   ]
+  }
+ }
 }

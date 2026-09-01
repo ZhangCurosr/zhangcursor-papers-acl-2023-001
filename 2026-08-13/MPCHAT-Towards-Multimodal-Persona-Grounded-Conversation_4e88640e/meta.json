@@ -4,5 +4,32 @@
  "title": "MPCHAT-Towards-Multimodal-Persona-Grounded-Conversation",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:11:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/abbfd5cf-f649-4481-821a-7d080094822a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/abbfd5cf-f649-4481-821a-7d080094822a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:38:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal dialogue",
+    "persona-grounded conversation",
+    "episodic memory",
+    "dialogue retrieval",
+    "multimodal understanding",
+    "dataset construction"
+   ],
+   "field": "多模态对话系统",
+   "innovations": [
+    "提出首个多模态人格对话数据集 MPCHAT，人格由图像-句子对描述情景记忆",
+    "定义 next response prediction / grounding persona prediction / speaker identification 三个检索基准任务",
+    "通过三级一致性验证（规则→模型→人工 NLI）确保人格-响应对齐质量"
+   ],
+   "benchmarks": [
+    "MPCHAT",
+    "Next Response Prediction",
+    "Grounding Persona Prediction",
+    "Speaker Identification"
+   ]
+  }
+ }
 }

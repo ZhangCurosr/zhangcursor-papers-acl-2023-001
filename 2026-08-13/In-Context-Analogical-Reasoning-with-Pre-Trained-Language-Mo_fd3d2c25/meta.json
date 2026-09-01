@@ -4,5 +4,31 @@
  "title": "In-Context-Analogical-Reasoning-with-Pre-Trained-Language-Mo",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 07:10:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cc707a47-9d05-4d69-b988-abedcd9b86e0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cc707a47-9d05-4d69-b988-abedcd9b86e0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:37:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "类比推理",
+    "预训练语言模型",
+    "Raven渐进矩阵",
+    "零样本推理",
+    "关系推理",
+    "上下文学习",
+    "视觉抽象"
+   ],
+   "field": "视觉关系推理与类比推理",
+   "innovations": [
+    "将PLM以零样本方式应用于视觉RAVEN类比推理任务，无需任务特定训练",
+    "提出三级语言抽象框架（实体命名→布局编码→结构分解）逐级提升推理性能",
+    "揭示模型规模、分解策略、先验知识对PLM类比推理的多维度影响规律"
+   ],
+   "benchmarks": [
+    "RAVEN",
+    "I-RAVEN"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Learning-with-Partial-Annotations-for-Event-Detection",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:10:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/10df1775-9ae4-44b5-b694-1cd512007b56.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/10df1775-9ae4-44b5-b694-1cd512007b56.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:38:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "event detection",
+    "partial annotation",
+    "contrastive learning",
+    "margin softmax",
+    "uncertainty estimation",
+    "self-correction"
+   ],
+   "field": "信息抽取与部分标注学习",
+   "innovations": [
+    "提出基于触发词定位的对比学习框架，有效容忍部分标注噪声",
+    "设计margin softmax损失与高斯正则化结合的正负样本优化机制",
+    "构建不确定性引导的自校正重训练机制，动态修正假阴性标签"
+   ],
+   "benchmarks": [
+    "ACE 2005 (re-annotated)",
+    "MAVEN",
+    "WikiEvents"
+   ]
+  }
+ }
 }

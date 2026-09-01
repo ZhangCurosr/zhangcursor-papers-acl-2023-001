@@ -4,5 +4,30 @@
  "title": "Learning-to-Simulate-Natural-Language-Feedback-for-Interacti",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-13 07:11:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/eb677b64-11b1-48fb-988a-efe0c0aaa571.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/eb677b64-11b1-48fb-988a-efe0c0aaa571.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:38:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "interactive semantic parsing",
+    "natural language feedback",
+    "feedback simulation",
+    "text-to-SQL",
+    "low-resource NLP",
+    "semantic evaluation"
+   ],
+   "field": "交互式语义解析",
+   "innovations": [
+    "提出NL反馈模拟任务并给出明确定义和评估方法",
+    "设计基于模板反馈的RoBERTa评估器以度量逻辑一致性",
+    "提出TQES变体，将程序化edits转为自然语言模板描述以提升T5生成质量"
+   ],
+   "benchmarks": [
+    "SPLASH",
+    "Spider"
+   ]
+  }
+ }
 }

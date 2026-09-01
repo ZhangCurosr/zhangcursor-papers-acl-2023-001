@@ -4,5 +4,31 @@
  "title": "Instruction-Induction-From-Few-Examples-to-Natural-Language",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 07:10:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/044ea4f4-edfb-428d-b571-1c64d54c42ea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/044ea4f4-edfb-428d-b571-1c64d54c42ea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:38:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Instruction Induction",
+    "In-context Learning",
+    "Large Language Models",
+    "Instruction Tuning",
+    "Zero-shot Learning",
+    "Evaluation Metric"
+   ],
+   "field": "自然语言理解与提示学习",
+   "innovations": [
+    "提出指令归纳挑战，考察模型显式生成任务描述的能力",
+    "设计执行准确率指标直接评估生成指令的效用",
+    "发现指令归纳能力需大模型规模与指令微调共同作用"
+   ],
+   "benchmarks": [
+    "24个构造的简单指令任务集",
+    "BERTScore",
+    "Execution Accuracy"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Improving-Pretraining-Techniques-for-Code-Switched-NLP",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:11:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/346ce753-3445-4598-8fa3-d9ddcc9b008c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/346ce753-3445-4598-8fa3-d9ddcc9b008c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:37:58",
+  "chunks": 1
+ }
 }
