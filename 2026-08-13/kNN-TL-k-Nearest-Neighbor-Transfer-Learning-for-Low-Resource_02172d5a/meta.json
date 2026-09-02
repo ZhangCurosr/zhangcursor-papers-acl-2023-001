@@ -4,5 +4,31 @@
  "title": "kNN-TL-k-Nearest-Neighbor-Transfer-Learning-for-Low-Resource",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-08-13 14:55:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2f82f0d1-e72c-462a-857e-33de5a862d56.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2f82f0d1-e72c-462a-857e-33de5a862d56.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:11:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "低资源机器翻译",
+    "迁移学习",
+    "kNN检索",
+    "表征对齐",
+    "神经机器翻译"
+   ],
+   "field": "低资源机器翻译",
+   "innovations": [
+    "提出贯穿初始化/训练/推理全过程的kNN迁移学习框架",
+    "设计基于MSE的父子表征对齐机制以支持跨模型kNN检索",
+    "提出子模型感知的datastore剪枝方法以平衡性能与推理效率"
+   ],
+   "benchmarks": [
+    "Global Voices (Hu-En, Id-En, Ca-En)",
+    "WMT17 Tr-En",
+    "WMT17 De-En (parent)",
+    "WMT14 Fr-En (parent)"
+   ]
+  }
+ }
 }

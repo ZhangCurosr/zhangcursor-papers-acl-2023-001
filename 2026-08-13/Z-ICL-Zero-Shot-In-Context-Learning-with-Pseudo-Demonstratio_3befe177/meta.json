@@ -4,5 +4,34 @@
  "title": "Z-ICL-Zero-Shot-In-Context-Learning-with-Pseudo-Demonstratio",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-08-13 14:55:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5d514537-3d0a-4faf-bb35-419469dfd094.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5d514537-3d0a-4faf-bb35-419469dfd094.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:11:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zero-shot in-context learning",
+    "pseudo-demonstrations",
+    "copying effect",
+    "retrieval-augmented prompting",
+    "large language models"
+   ],
+   "field": "上下文学习与提示工程",
+   "innovations": [
+    "提出Z-ICL零样本ICL框架，通过原始语料库构造伪演示实现无标注少样本学习",
+    "发现并定义复制效应，证明演示样例与测试输入过近会导致模型直接复制标签",
+    "引入物理邻居和同义词标签两项技术有效抑制复制效应"
+   ],
+   "benchmarks": [
+    "CR",
+    "Amazon Reviews",
+    "Yelp",
+    "TweetEval",
+    "MR",
+    "SST2",
+    "SST5"
+   ]
+  }
+ }
 }
