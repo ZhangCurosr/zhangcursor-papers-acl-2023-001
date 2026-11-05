@@ -4,5 +4,31 @@
  "title": "Do-PLMs-Know-and-Understand-Ontological-Knowledge",
  "token": "sk-57bzKRZBk...",
  "created_at": "2026-11-04 21:11:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e27f5426-8a53-4482-bd33-945173a97eb6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e27f5426-8a53-4482-bd33-945173a97eb6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:58:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "本体论知识",
+    "预训练语言模型",
+    "知识探测",
+    "RDFS推理",
+    "Soft Prompt",
+    "伪词",
+    "记忆与推理分离"
+   ],
+   "field": "知识探测与本体推理",
+   "innovations": [
+    "构建首个系统性本体知识探测基准（记忆+推理双任务）",
+    "提出三层前提分类框架（显式/隐式/未给定）精细分离记忆与推理",
+    "基于伪词嵌入距离的推理探测方法排除表面记忆干扰"
+   ],
+   "benchmarks": [
+    "OntoProbe-PLMs (DBpedia+Wikidata)",
+    "RDFS Entailment Rules Benchmark"
+   ]
+  }
+ }
 }

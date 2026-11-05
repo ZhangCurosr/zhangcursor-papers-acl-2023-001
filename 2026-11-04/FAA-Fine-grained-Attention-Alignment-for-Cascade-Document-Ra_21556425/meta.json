@@ -4,5 +4,29 @@
  "title": "FAA-Fine-grained-Attention-Alignment-for-Cascade-Document-Ra",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-11-04 21:03:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/74a4220f-6b67-4134-87dd-0af999180467.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/74a4220f-6b67-4134-87dd-0af999180467.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:59:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "document ranking",
+    "cascade ranking",
+    "fine-grained attention alignment",
+    "knowledge distillation",
+    "passage selection"
+   ],
+   "field": "信息检索",
+   "innovations": [
+    "提出细粒度注意力对齐机制，利用cross-encoder ranker的自注意力分布监督dual-encoder selector优化",
+    "设计协同匹配表示融合策略，将段落选择器的相关性分数加权融入排序器的输入表示"
+   ],
+   "benchmarks": [
+    "MS MARCO DEV",
+    "TREC DL 2019",
+    "TREC DL 2020"
+   ]
+  }
+ }
 }

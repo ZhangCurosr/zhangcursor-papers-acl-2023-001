@@ -4,5 +4,30 @@
  "title": "CATS-A-Pragmatic-Chinese-Answer-to-Sequence-Dataset-with-Lar",
  "token": "sk-TJ3mjvq2i...",
  "created_at": "2026-11-04 21:04:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1613c2cb-d047-462b-8231-b15c4f6b5784.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1613c2cb-d047-462b-8231-b15c4f6b5784.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:58:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "answer-to-sequence",
+    "data-to-text",
+    "Chinese NLP",
+    "table QA",
+    "graph-to-text",
+    "structured data generation"
+   ],
+   "field": "中文数据生成与表格问答",
+   "innovations": [
+    "UGT统一图变换将异构SQL与表输入转为统一图结构",
+    "NSE节点段嵌入保留原图拓扑避免token级结构破坏"
+   ],
+   "benchmarks": [
+    "CATS",
+    "CoSQL",
+    "DuSQL"
+   ]
+  }
+ }
 }

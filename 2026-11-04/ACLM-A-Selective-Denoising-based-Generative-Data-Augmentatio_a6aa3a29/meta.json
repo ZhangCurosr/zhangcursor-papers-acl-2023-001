@@ -4,5 +4,32 @@
  "title": "ACLM-A-Selective-Denoising-based-Generative-Data-Augmentatio",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-11-04 21:10:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9eb2e49c-8fbe-40f1-be6c-184fab0e838e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9eb2e49c-8fbe-40f1-be6c-184fab0e838e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:57:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "复杂命名实体识别",
+    "数据增强",
+    "选择性掩码",
+    "条件语言模型",
+    "低资源NLP",
+    "多语言NER"
+   ],
+   "field": "低资源命名实体识别",
+   "innovations": [
+    "基于注意力图的选择性掩码模板构建，保留实体及上下文关键词",
+    "mixner模板混合算法，在生成阶段拼接相似句子模板提升多样性"
+   ],
+   "benchmarks": [
+    "MultiCoNER",
+    "CoNLL 2003",
+    "BC2GM",
+    "NCBI Disease",
+    "TDMSci"
+   ]
+  }
+ }
 }

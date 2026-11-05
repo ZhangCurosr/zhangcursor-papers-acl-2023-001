@@ -4,5 +4,34 @@
  "title": "Do-language-models-have-coherent-mental-models-of-everyday-t",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-11-04 21:22:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/74d44628-7212-41b9-8c71-bd0e17223e68.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/74d44628-7212-41b9-8c71-bd0e17223e68.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:58:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "parts mental model",
+    "constraint reasoning",
+    "MaxSAT",
+    "language model coherence",
+    "common sense probing",
+    "neuro-symbolic",
+    "ParRoT"
+   ],
+   "field": "语言模型常识推理与内在一致性",
+   "innovations": [
+    "ParRoT: 首个系统探测LM日常物部件心理模型连贯性的11.7K关系基准数据集",
+    "ParRoT-Con: 在LM零样本预测上叠加MaxSAT约束求解层，消除全部常识违反并提升准确率16-20%",
+    "条件违反率τ作为LM内部一致性量化度量"
+   ],
+   "benchmarks": [
+    "ParRoT",
+    "ParRoT++",
+    "PTR",
+    "PIQA",
+    "CSQA"
+   ]
+  }
+ }
 }

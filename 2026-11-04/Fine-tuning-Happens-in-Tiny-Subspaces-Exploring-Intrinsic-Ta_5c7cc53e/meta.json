@@ -4,5 +4,29 @@
  "title": "Fine-tuning-Happens-in-Tiny-Subspaces-Exploring-Intrinsic-Ta",
  "token": "sk-B2hxqutYc...",
  "created_at": "2026-11-04 21:26:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/b8e3a2bd-987a-4b74-84e8-bbd5ddb17222.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/b8e3a2bd-987a-4b74-84e8-bbd5ddb17222.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 22:00:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "预训练语言模型",
+    "参数高效微调",
+    "固有子空间",
+    "SVD",
+    "异常维度",
+    "GLUE"
+   ],
+   "field": "PLM微调机制与高效适配",
+   "innovations": [
+    "通过微调轨迹SVD显式发现任务特定固有子空间",
+    "每层仅需32个自由参数达到接近全参数微调的性能",
+    "发现并验证异常维度对任务适应的关键作用"
+   ],
+   "benchmarks": [
+    "GLUE"
+   ]
+  }
+ }
 }

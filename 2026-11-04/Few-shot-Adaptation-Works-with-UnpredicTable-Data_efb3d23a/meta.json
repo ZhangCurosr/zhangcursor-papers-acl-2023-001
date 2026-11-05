@@ -4,5 +4,32 @@
  "title": "Few-shot-Adaptation-Works-with-UnpredicTable-Data",
  "token": "sk-NSDKB0rML...",
  "created_at": "2026-11-04 21:15:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c44a97b6-0e1e-42bc-8c1a-5a74263c62ce.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c44a97b6-0e1e-42bc-8c1a-5a74263c62ce.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 22:00:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "few-shot learning",
+    "meta-ICL",
+    "multi-task learning",
+    "language model adaptation",
+    "web table",
+    "dataset construction"
+   ],
+   "field": "少样本学习与多任务迁移",
+   "innovations": [
+    "从互联网表格自动提取 413,299 个 FSL 任务并验证其有效性",
+    "发现窄域数据集可匹配或超越大规模多样化 NLP 数据集的 FSL 提升效果",
+    "揭示任务质量人工标注与下游 FSL 表现之间缺乏强相关性，提升具有 domain-agnostic 特性"
+   ],
+   "benchmarks": [
+    "MetaICL 52-task benchmark",
+    "CrossFit Random",
+    "FLEX",
+    "WDC Web Table Corpus 2015"
+   ]
+  }
+ }
 }

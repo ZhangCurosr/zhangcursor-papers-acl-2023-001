@@ -4,5 +4,30 @@
  "title": "Holographic-CCG-Parsing",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-11-04 21:09:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1c27e716-8416-49f0-b495-dde36720eb8e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1c27e716-8416-49f0-b495-dde36720eb8e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 22:01:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "CCG Parsing",
+    "Holographic Embeddings",
+    "Compositional Vector Grammar",
+    "Span-based Parsing",
+    "Supertagging",
+    "Recursive Composition",
+    "Circular Correlation"
+   ],
+   "field": "句法解析与组合语义",
+   "innovations": [
+    "将 HolE 循环相关算子作为无参数递归组合运算符引入 CCG 解析，替代 CVG 的矩阵参数方案",
+    "提出基于全息短语向量的 span-based CCG 解析算法，达 SOTA 性能",
+    "利用全息组合可分解性实现结构保持的短语级文本填充"
+   ],
+   "benchmarks": [
+    "CCGbank"
+   ]
+  }
+ }
 }

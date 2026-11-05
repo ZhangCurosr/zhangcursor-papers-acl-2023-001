@@ -4,5 +4,30 @@
  "title": "History-Semantic-Graph-Enhanced-Conversational-KBQA-with-Tem",
  "token": "sk-bXaG87Ajl...",
  "created_at": "2026-11-04 21:09:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1dd2e115-37c3-4991-804a-4d71a6ef6905.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1dd2e115-37c3-4991-804a-4d71a6ef6905.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 22:01:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Conversational KBQA",
+    "Semantic Parsing",
+    "Knowledge Graph",
+    "Graph Neural Network",
+    "History Modeling",
+    "Temporal Embedding",
+    "Logical Form Generation",
+    "CSQA"
+   ],
+   "field": "对话式知识图谱问答",
+   "innovations": [
+    "首次将历史语义图（HSG）用于建模对话长程依赖，节点为实体/类型、边为谓词，通过 TransformerConv 捕获高阶交互",
+    "设计上下文感知编码器，引入绝对/相对距离时间嵌入与 token/utterance 双层聚合，缓解焦点实体转移带来的噪声"
+   ],
+   "benchmarks": [
+    "CSQA (Complex Sequential Question Answering)"
+   ]
+  }
+ }
 }

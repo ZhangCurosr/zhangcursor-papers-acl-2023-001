@@ -4,5 +4,34 @@
  "title": "From-the-One-Judge-of-the-Whole-Typed-Entailment-Graph-Const",
  "token": "sk-vCZXYoScl...",
  "created_at": "2026-11-04 21:16:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7a6849b5-aac3-416a-a68c-61fec791ff9c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7a6849b5-aac3-416a-a68c-61fec791ff9c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 22:00:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "蕴含图",
+    "谓词生成",
+    "自然语言推断",
+    "生成式LM",
+    "数据稀疏",
+    "传递性约束"
+   ],
+   "field": "自然语言推理与知识表示",
+   "innovations": [
+    "首次将蕴含图构建完全建模为生成式任务，用T5生成新谓词规避语料稀疏",
+    "提出基于球体表征的可微边选择器，隐式保证传递性",
+    "发现跨域谓词生成可有效缓解过拟合，提升跨域泛化"
+   ],
+   "benchmarks": [
+    "Levy/Holt",
+    "Levy/Holt-r",
+    "Berant",
+    "SherLIiC",
+    "SNLI",
+    "SciTail"
+   ]
+  }
+ }
 }

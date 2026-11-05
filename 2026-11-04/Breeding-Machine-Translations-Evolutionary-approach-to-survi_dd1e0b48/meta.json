@@ -4,5 +4,31 @@
  "title": "Breeding-Machine-Translations-Evolutionary-approach-to-survi",
  "token": "sk-buEDzpHKC...",
  "created_at": "2026-11-04 21:07:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0620d2b4-8b9e-4590-ad13-511fdb15dd60.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0620d2b4-8b9e-4590-ad13-511fdb15dd60.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:57:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "遗传算法",
+    "机器翻译",
+    "评估指标",
+    "对抗样本",
+    "MBR解码"
+   ],
+   "field": "机器翻译评估",
+   "innovations": [
+    "将GA应用于NMT假设空间搜索生成新翻译",
+    "多指标融合（QE+CMT20+BLEU）提升UniTE显著性",
+    "自动发现无参考COMET（QE）的鲁棒性缺陷"
+   ],
+   "benchmarks": [
+    "newstest-18-head150",
+    "UniTE",
+    "CMT20",
+    "QE"
+   ]
+  }
+ }
 }

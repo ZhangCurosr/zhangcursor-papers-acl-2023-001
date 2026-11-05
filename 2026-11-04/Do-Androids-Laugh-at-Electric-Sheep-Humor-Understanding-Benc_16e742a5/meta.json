@@ -4,5 +4,32 @@
  "title": "Do-Androids-Laugh-at-Electric-Sheep-Humor-Understanding-Benc",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-11-04 21:23:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/cc1cb543-cc8d-4c08-ba1f-046ea20fa082.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/cc1cb543-cc8d-4c08-ba1f-046ea20fa082.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:58:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "幽默理解",
+    "多模态基准",
+    "New Yorker Caption Contest",
+    "图文匹配",
+    "解释生成",
+    "GPT-4评测"
+   ],
+   "field": "多模态理解与计算幽默",
+   "innovations": [
+    "提出FP/FD双设置递进式幽默理解基准（匹配/排序/解释）",
+    "构建704幅漫画的四元密集注释语料并开源",
+    "首次在GPT-4上系统评测幽默理解并报告人类-vs-机器的pairwise差距（67.7%人类胜）"
+   ],
+   "benchmarks": [
+    "New Yorker Caption Contest Corpus (704 contests, 1.5M captions)",
+    "Matching (5-way, 1.6K train / 538 test)",
+    "Quality Ranking (NYAcc / CrowdAcc)",
+    "Explanation (651 human-authored, pairwise evaluation)"
+   ]
+  }
+ }
 }

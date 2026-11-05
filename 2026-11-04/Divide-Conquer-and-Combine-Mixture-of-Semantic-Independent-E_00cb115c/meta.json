@@ -4,5 +4,29 @@
  "title": "Divide-Conquer-and-Combine-Mixture-of-Semantic-Independent-E",
  "token": "sk-EKBGNBzZY...",
  "created_at": "2026-11-04 21:23:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/34bf7473-1b62-4976-b509-b378640f7a4f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/34bf7473-1b62-4976-b509-b378640f7a4f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:58:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "零样本对话状态追踪",
+    "混合专家",
+    "语义解耦",
+    "参数高效微调",
+    "多领域对话系统"
+   ],
+   "field": "对话状态追踪/零样本学习",
+   "innovations": [
+    "提出divide-conquer-combine三阶段框架，显式将已见数据划分为语义独立子集训练专家",
+    "设计参数级与词元级两种集成推理策略，在约10M参数下实现MultiWOZ 2.1零样本SOTA",
+    "证明语义聚类划分优于隐式领域划分，且与数据增强和槽依赖建模方法高度互补"
+   ],
+   "benchmarks": [
+    "MultiWOZ 2.1",
+    "Schema-Guided Dialogue (SGD)"
+   ]
+  }
+ }
 }

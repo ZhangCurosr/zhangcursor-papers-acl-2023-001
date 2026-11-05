@@ -4,5 +4,31 @@
  "title": "Helping-a-Friend-or-Supporting-a-Cause-Disentangling-Active",
  "token": "sk-sbpYA8ztD...",
  "created_at": "2026-11-04 21:22:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1c7271ab-e6b9-48ef-a41a-9bb5cdce9d1c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1c7271ab-e6b9-48ef-a41a-9bb5cdce9d1c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 22:01:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cosponsorship",
+    "representational learning",
+    "relational graph convolutional network",
+    "legislative behavior",
+    "multi-task learning",
+    "zero-shot prediction",
+    "political text analysis"
+   ],
+   "field": "计算社会科学/NLP交叉",
+   "innovations": [
+    "提出Encoder+RGCN联合框架首次区分主动与被动共同提案的动机差异",
+    "多任务自监督学习（作者预测+引用预测）显著提升议员表示质量",
+    "零样本议员表示在投票预测任务上超越专门训练的SOTA方法"
+   ],
+   "benchmarks": [
+    "US Congress 112th-115th cosponsorship classification",
+    "Roll-Call Vote prediction"
+   ]
+  }
+ }
 }

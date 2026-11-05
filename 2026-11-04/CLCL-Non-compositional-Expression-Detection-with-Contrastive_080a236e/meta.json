@@ -4,5 +4,10 @@
  "title": "CLCL-Non-compositional-Expression-Detection-with-Contrastive",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-11-04 21:27:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5ec4769f-3c03-41f2-bf76-fa9cf4478980.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5ec4769f-3c03-41f2-bf76-fa9cf4478980.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:58:25",
+  "chunks": 1
+ }
 }

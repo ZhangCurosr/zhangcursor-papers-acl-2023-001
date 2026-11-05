@@ -4,5 +4,32 @@
  "title": "From-Ultra-Fine-to-Fine-Fine-tuning-Ultra-Fine-Entity-Typing",
  "token": "sk-o7hgvdkWW...",
  "created_at": "2026-11-04 21:00:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2461af5d-c59d-4f6d-9432-e2e1dc9a4c83.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2461af5d-c59d-4f6d-9432-e2e1dc9a4c83.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 22:00:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Fine-grained Entity Typing",
+    "Ultra-fine Entity Typing",
+    "Few-shot Learning",
+    "Domain Adaptation",
+    "Pre-training and Fine-tuning",
+    "Weak Supervision"
+   ],
+   "field": "细粒度实体类型标注",
+   "innovations": [
+    "首次提出将UFET预训练模型微调迁移到FET任务的方法，实现零远端数据依赖的新FET建模",
+    "提出统一的词/短语类型表示架构，使类型标签经tokenization+多头自注意力编码为向量，复用UFET全部参数",
+    "引入MLM与NWP双辅助目标提升预训练质量，仅在少量人工标注样本下即超越依赖大规模弱监督的SOTA方法"
+   ],
+   "benchmarks": [
+    "UFET (Choi et al. 2018)",
+    "OntoNotes",
+    "Few-NERD",
+    "BBN"
+   ]
+  }
+ }
 }

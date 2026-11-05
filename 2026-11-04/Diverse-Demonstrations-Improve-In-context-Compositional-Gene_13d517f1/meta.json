@@ -4,5 +4,30 @@
  "title": "Diverse-Demonstrations-Improve-In-context-Compositional-Gene",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-11-04 21:01:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/21eade8b-3b4c-4fe8-95ee-5648b91774f1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/21eade8b-3b4c-4fe8-95ee-5648b91774f1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:58:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "in-context learning",
+    "compositional generalization",
+    "semantic parsing",
+    "demonstration selection",
+    "local structures"
+   ],
+   "field": "组合泛化与上下文学习",
+   "innovations": [
+    "提出Cover-LS算法通过局部结构覆盖选择多样化演示",
+    "发现结构覆盖优于纯示例相似度选择",
+    "设计微调时避免过复制的噪声演示策略"
+   ],
+   "benchmarks": [
+    "SMCalFlow-CS",
+    "GeoQuery",
+    "COVR-10"
+   ]
+  }
+ }
 }

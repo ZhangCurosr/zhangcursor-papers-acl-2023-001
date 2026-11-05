@@ -4,5 +4,28 @@
  "title": "Dynamic-Routing-Transformer-Network-for-Multimodal-Sarcasm-D",
  "token": "sk-2FYNY4z3P...",
  "created_at": "2026-11-04 21:10:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/380a55d9-2f5f-4b30-be66-63d753c97142.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/380a55d9-2f5f-4b30-be66-63d753c97142.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:59:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal sarcasm detection",
+    "dynamic routing",
+    "hierarchical co-attention",
+    "cross-modal incongruity",
+    "DynRT-Net"
+   ],
+   "field": "多模态自然语言处理",
+   "innovations": [
+    "首次将动态路由机制扩展到跨模态图文交互场景",
+    "提出分层共注意力掩码库并通过 Gumble Softmax Router 动态加权",
+    "在不依赖外部知识的情况下显著超越现有静态多模态讽刺检测方法"
+   ],
+   "benchmarks": [
+    "MSD (Multimodal Sarcasm Detection)"
+   ]
+  }
+ }
 }
