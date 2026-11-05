@@ -4,5 +4,35 @@
  "title": "Detecting-and-Mitigating-Hallucinations-in-Machine-Translati",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-11-04 21:13:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d2c4a808-b74e-474f-ae09-805e68e9ee4d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d2c4a808-b74e-474f-ae09-805e68e9ee4d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:10:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "机器翻译",
+    "幻觉检测",
+    "源贡献度",
+    "ALTI",
+    "跨语言句子相似度",
+    "LaBSE",
+    "质量估计",
+    "detect-then-rewrite"
+   ],
+   "field": "机器翻译可解释性与鲁棒性",
+   "innovations": [
+    "首次将ALTI源贡献度用于真实MT幻觉检测，完全脱离型幻觉P@R90提升2.2倍",
+    "首次引入LaBSE跨语言句子相似度与XNLI自然语言推理模型，分别达AUC 91.7和90.9",
+    "证明MC Dropout生成+LaBSE重排的流水线在人类评估下将幻觉率降低2.5-3倍，优于COMET-QE基线"
+   ],
+   "benchmarks": [
+    "Guerreiro et al. 2022 德英幻觉数据集",
+    "ROC AUC",
+    "P@R90",
+    "COMET",
+    "SacreBLEU"
+   ]
+  }
+ }
 }

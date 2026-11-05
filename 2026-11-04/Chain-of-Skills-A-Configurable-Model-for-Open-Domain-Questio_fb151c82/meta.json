@@ -4,5 +4,33 @@
  "title": "Chain-of-Skills-A-Configurable-Model-for-Open-Domain-Questio",
  "token": "sk-4qwN7yoJ8...",
  "created_at": "2026-11-04 21:18:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e698e8d4-f7a0-45c4-9e4b-669af5a09824.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e698e8d4-f7a0-45c4-9e4b-669af5a09824.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:07:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "open-domain question answering",
+    "dense retrieval",
+    "modular model",
+    "multi-task learning",
+    "chain-of-skills"
+   ],
+   "field": "开放域问答检索",
+   "innovations": [
+    "提出Chain-of-Skills模块化检索器，将ODQA检索分解为5个可复用技能模块",
+    "设计MHA专家参数化方案有效缓解多任务检索中的任务干扰",
+    "多任务自监督预训练实现零样本检索能力并支持灵活的链式推理配置"
+   ],
+   "benchmarks": [
+    "Natural Questions (NQ)",
+    "HotpotQA",
+    "OTT-QA",
+    "WebQuestions",
+    "EntityQuestions",
+    "SQuAD"
+   ]
+  }
+ }
 }

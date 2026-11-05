@@ -4,5 +4,38 @@
  "title": "A-Survey-on-Asking-Clarification-Questions-Datasets-in-Conve",
  "token": "sk-KgtqP1w4p...",
  "created_at": "2026-11-04 21:02:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/34d8b096-3bf6-4053-a648-57ab8fd95686.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/34d8b096-3bf6-4053-a648-57ab8fd95686.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:05:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Asking Clarification Questions",
+    "Conversational Search",
+    "Conversational QA",
+    "Dataset Benchmark",
+    "t-SNE Visualization",
+    "Clarification Need Prediction",
+    "User Satisfaction",
+    "ACQs Survey"
+   ],
+   "field": "对话式信息检索",
+   "innovations": [
+    "首次系统综述 ACQs 数据集并揭示语义重叠问题",
+    "提出 t-SNE 可视化辅助数据集选择方法",
+    "统一基线实验揭示传统 ML 与语言模型在不同任务上的性能差异"
+   ],
+   "benchmarks": [
+    "Qulac",
+    "ClariQ",
+    "MIMICS",
+    "ClariT",
+    "TavakoliCQ",
+    "MANtIS",
+    "ClarQ",
+    "CLAQUA"
+   ]
+  }
+ }
 }

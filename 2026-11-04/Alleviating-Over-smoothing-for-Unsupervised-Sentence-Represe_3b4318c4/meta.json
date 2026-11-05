@@ -4,5 +4,10 @@
  "title": "Alleviating-Over-smoothing-for-Unsupervised-Sentence-Represe",
  "token": "sk-RiyVHqe9d...",
  "created_at": "2026-11-04 21:09:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2aa5c1fa-3e09-4892-a9da-6c6d1581fb16.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2aa5c1fa-3e09-4892-a9da-6c6d1581fb16.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:06:33",
+  "chunks": 1
+ }
 }

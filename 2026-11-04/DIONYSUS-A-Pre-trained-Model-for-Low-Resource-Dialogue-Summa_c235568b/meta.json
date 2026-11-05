@@ -4,5 +4,31 @@
  "title": "DIONYSUS-A-Pre-trained-Model-for-Low-Resource-Dialogue-Summa",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-11-04 21:01:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/41b15ef6-5c0f-4791-91fc-163eca77b932.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/41b15ef6-5c0f-4791-91fc-163eca77b932.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:08:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话摘要",
+    "低资源学习",
+    "预训练模型",
+    "零样本学习",
+    "伪摘要",
+    "自监督学习"
+   ],
+   "field": "低资源对话摘要",
+   "innovations": [
+    "提出双源伪摘要预训练框架（Summary Helper + GSG+）用于对话摘要",
+    "改进GSG策略为GSG+，用生成摘要替代剩余文本评估对话轮次重要性",
+    "动态选择策略（Better ROUGE）融合生成式与提取式预训练目标"
+   ],
+   "benchmarks": [
+    "SAMSum",
+    "ConvoSumm",
+    "TweetSumm"
+   ]
+  }
+ }
 }

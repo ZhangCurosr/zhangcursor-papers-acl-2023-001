@@ -4,5 +4,32 @@
  "title": "Can-NLI-Provide-Proper-Indirect-Supervision-for-Low-resource",
  "token": "sk-ckT2EzSkF...",
  "created_at": "2026-11-04 21:02:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ef0482db-a652-4240-a8ab-2c90f35c5262.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ef0482db-a652-4240-a8ab-2c90f35c5262.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:07:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Biomedical Relation Extraction",
+    "Natural Language Inference",
+    "Indirect Supervision",
+    "Low-resource NLP",
+    "Abstention Calibration",
+    "InfoNCE Loss"
+   ],
+   "field": "生物医学自然语言处理",
+   "innovations": [
+    "首次将 NLI 间接监督引入生物医学关系抽取，验证跨域知识迁移有效性",
+    "提出 ranking-based Abstention Calibration 损失，隐式处理 abstinent 类别不平衡",
+    "证明通用 NLI 知识可有效迁移至生物医学 RE，低资源场景下边际收益显著"
+   ],
+   "benchmarks": [
+    "ChemProt",
+    "DDI",
+    "GAD",
+    "BLURB"
+   ]
+  }
+ }
 }

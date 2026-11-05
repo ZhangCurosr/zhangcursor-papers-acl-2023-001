@@ -4,5 +4,31 @@
  "title": "A-Gradient-Control-Method-for-Backdoor-Attacks-on-Parameter",
  "token": "sk-DZdSC3jNI...",
  "created_at": "2026-11-04 21:09:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/01413f8f-052f-441f-95d5-ead02d1eb2de.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/01413f8f-052f-441f-95d5-ead02d1eb2de.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:05:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Parameter-Efficient Tuning",
+    "Backdoor Attack",
+    "Gradient Control",
+    "Multi-Task Learning",
+    "Backdoor Forgetting"
+   ],
+   "field": "大模型安全与后门攻击",
+   "innovations": [
+    "将PET后门注入建模为多任务学习过程并提出梯度幅度与方向联合控制方法",
+    "提出CLNorm实现跨层梯度幅度归一化以降低输出层依赖",
+    "提出ILProj实现层间差异化的梯度方向投影策略以缓解后门遗忘"
+   ],
+   "benchmarks": [
+    "SST-2",
+    "IMDB",
+    "Enron",
+    "Lingspam"
+   ]
+  }
+ }
 }

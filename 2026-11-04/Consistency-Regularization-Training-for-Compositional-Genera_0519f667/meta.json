@@ -4,5 +4,32 @@
  "title": "Consistency-Regularization-Training-for-Compositional-Genera",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-11-04 20:54:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/37199395-3933-4f77-928e-3be723749b6a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/37199395-3933-4f77-928e-3be723749b6a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:07:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "compositional generalization",
+    "consistency regularization",
+    "contrastive learning",
+    "Transformer",
+    "semantic parsing",
+    "machine translation"
+   ],
+   "field": "组合泛化与训练正则化",
+   "innovations": [
+    "提出表示一致性和预测一致性双重重正则化训练方法，无需修改架构即可提升组合泛化",
+    "发现预测一致性得分可作为验证集区分度不足时的有效模型选择指标",
+    "系统性验证对比学习正则化在语义解析和机器翻译双任务上的通用有效性"
+   ],
+   "benchmarks": [
+    "COGS",
+    "CFQ",
+    "CoGnition",
+    "OPUS En-Nl"
+   ]
+  }
+ }
 }

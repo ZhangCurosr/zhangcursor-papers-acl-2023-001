@@ -4,5 +4,10 @@
  "title": "Cross-lingual-Science-Journalism-SELECT-SIMPLIFY-and-REWRITE",
  "token": "sk-5sRpPz5k4...",
  "created_at": "2026-11-04 21:27:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2736c63d-53c7-4748-8acc-dc16fc361ed8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2736c63d-53c7-4748-8acc-dc16fc361ed8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:08:31",
+  "chunks": 1
+ }
 }

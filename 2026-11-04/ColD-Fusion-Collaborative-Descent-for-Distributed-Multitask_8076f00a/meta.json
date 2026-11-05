@@ -4,5 +4,32 @@
  "title": "ColD-Fusion-Collaborative-Descent-for-Distributed-Multitask",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-11-04 21:26:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d76b5dfe-1a62-4c96-bcf2-4627b8fb4e28.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d76b5dfe-1a62-4c96-bcf2-4627b8fb4e28.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:07:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "collaborative learning",
+    "multitask learning",
+    "model fusion",
+    "distributed training",
+    "few-shot learning",
+    "parameter averaging"
+   ],
+   "field": "多任务学习与模型融合",
+   "innovations": [
+    "提出迭代式协作微调框架ColD Fusion，通过多轮微调+权重平均持续进化基础模型",
+    "在无数据共享约束下实现分布式多任务学习，兼顾单模型性能与基础模型泛化能力",
+    "在少样本场景下验证显著提升，35个数据集平均超越RoBERTa-base 2.33分"
+   ],
+   "benchmarks": [
+    "GLUE",
+    "SuperGLUE",
+    "MNLI",
+    "36个英语NLP数据集"
+   ]
+  }
+ }
 }

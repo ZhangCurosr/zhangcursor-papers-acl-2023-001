@@ -4,5 +4,31 @@
  "title": "Denoising-Bottleneck-with-Mutual-Information-Maximization-fo",
  "token": "sk-EQhZ10Ty5...",
  "created_at": "2026-11-04 21:00:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/cbbd3008-9ad2-418e-a574-2a657cd9903f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/cbbd3008-9ad2-418e-a574-2a657cd9903f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:09:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频多模态融合",
+    "去噪瓶颈",
+    "互信息最大化",
+    "多模态情感分析",
+    "多模态摘要",
+    "InfoNCE"
+   ],
+   "field": "多模态学习",
+   "innovations": [
+    "提出融合瓶颈模块通过受限感受野细粒度过滤视频噪声与冗余",
+    "设计互信息最大化模块防止关键信息被过度过滤，两者互补协同",
+    "在MOSI、MOSEI和How2三个基准上均取得SOTA性能"
+   ],
+   "benchmarks": [
+    "MOSI",
+    "MOSEI",
+    "How2"
+   ]
+  }
+ }
 }

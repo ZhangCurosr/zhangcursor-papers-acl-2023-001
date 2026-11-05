@@ -4,5 +4,34 @@
  "title": "Cold-Start-Data-Selection-for-Better-Few-shot-Language-Model",
  "token": "sk-Kd7pZOTW3...",
  "created_at": "2026-11-04 21:04:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9d393f2e-39c9-4d75-a829-7aae59088c1c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9d393f2e-39c9-4d75-a829-7aae59088c1c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:07:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "冷启动数据选择",
+    "少样本微调",
+    "Prompt学习",
+    "主动学习",
+    "不确定性传播",
+    "样本多样性"
+   ],
+   "field": "少样本自然语言处理",
+   "innovations": [
+    "基于 Prompt 的冷启动不确定性估计，利用 cloze 形式蒸馏任务知识",
+    "不确定性传播机制，通过嵌入空间邻域相似度平滑不确定性",
+    "分区-重写策略（PTR），两阶段兼顾样本信息量与跨簇多样性"
+   ],
+   "benchmarks": [
+    "IMDB",
+    "Yelp-Full",
+    "AG News",
+    "Yahoo! Answers",
+    "DBPedia",
+    "TREC"
+   ]
+  }
+ }
 }

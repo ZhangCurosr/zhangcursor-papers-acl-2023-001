@@ -4,5 +4,30 @@
  "title": "Better-Simultaneous-Translation-with-Monotonic-Knowledge-Dis",
  "token": "sk-gpAzKtmRM...",
  "created_at": "2026-11-04 21:03:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f636d1c2-a4dd-4a15-b15b-d0d21ae86b61.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f636d1c2-a4dd-4a15-b15b-d0d21ae86b61.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:07:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "同步机器翻译",
+    "知识蒸馏",
+    "单调翻译",
+    "两阶段束搜索",
+    "幻觉缓解",
+    "SeqKD"
+   ],
+   "field": "同步机器翻译",
+   "innovations": [
+    "两阶段束搜索生成单调伪目标用于知识蒸馏训练SiMT模型",
+    "构建WMT15 De-En单调测试集以公平评估单调SiMT方法"
+   ],
+   "benchmarks": [
+    "WMT15 De-En",
+    "CWMT19 Zh-En",
+    "IWSLT15 En-Vi"
+   ]
+  }
+ }
 }

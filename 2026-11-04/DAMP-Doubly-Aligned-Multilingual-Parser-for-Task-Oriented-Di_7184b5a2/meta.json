@@ -4,5 +4,31 @@
  "title": "DAMP-Doubly-Aligned-Multilingual-Parser-for-Task-Oriented-Di",
  "token": "sk-pAWZK7ksy...",
  "created_at": "2026-11-04 21:09:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/009f6e5c-9102-4d6d-bf15-ca9d195d0f3b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/009f6e5c-9102-4d6d-bf15-ca9d195d0f3b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:08:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨语言语义解析",
+    "语码转换",
+    "对抗训练",
+    "多语言对齐",
+    "零样本迁移",
+    "任务型对话"
+   ],
+   "field": "多语言自然语言处理",
+   "innovations": [
+    "对比对齐预训练显著改善语义解析跨语言迁移",
+    "二进制判别器+约束优化实现无超参对抗对齐微调",
+    "Pointer-generator与对抗对齐结合防止意外翻译"
+   ],
+   "benchmarks": [
+    "MTOP",
+    "CST5",
+    "CSTOP"
+   ]
+  }
+ }
 }

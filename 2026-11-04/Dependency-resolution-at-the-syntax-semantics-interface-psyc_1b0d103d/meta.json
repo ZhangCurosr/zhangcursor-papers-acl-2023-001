@@ -4,5 +4,32 @@
  "title": "Dependency-resolution-at-the-syntax-semantics-interface-psyc",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-11-04 21:13:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/469c0a21-b804-4686-b390-703308ed4c28.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/469c0a21-b804-4686-b390-703308ed4c28.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:09:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "control dependencies",
+    "targeted syntactic evaluation",
+    "masked language models",
+    "psycholinguistics",
+    "syntax-semantics interface",
+    "agreement attraction",
+    "Spanish",
+    "Galician"
+   ],
+   "field": "计算句法学与心理语言学交叉",
+   "innovations": [
+    "揭示MLM在控制依赖解析中系统性依赖线性邻近性而非词汇语义信息",
+    "构建并验证覆盖西班牙语和加利西亚语的高质量受控控制结构数据集",
+    "跨任务（可接受度判断+掩码预测）跨模型跨语言的鲁棒性验证"
+   ],
+   "benchmarks": [
+    "自制控制依赖接受度判断数据集",
+    "自制控制依赖掩码预测数据集"
+   ]
+  }
+ }
 }

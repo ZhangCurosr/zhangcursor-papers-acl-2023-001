@@ -4,5 +4,30 @@
  "title": "Abstract",
  "token": "sk-b5uWIpmTE...",
  "created_at": "2026-11-04 21:20:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/58755910-16e9-4b5f-bf03-5e0f2d490078.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/58755910-16e9-4b5f-bf03-5e0f2d490078.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:06:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ROUGE",
+    "模型评测",
+    "可复现性危机",
+    "自动指标",
+    "研究诚信",
+    "文本生成评估"
+   ],
+   "field": "NLP 评测方法论",
+   "innovations": [
+    "首次系统性审计 ROUGE 评测的三维度缺陷（可复现性/可比性/正确性）",
+    "在 13K 样本上逐项验证 17 个非标准 ROUGE 软件包并量化错误率",
+    "提出 Rogue-3 讽刺性案例证明错误包可伪造 SOTA 分数"
+   ],
+   "benchmarks": [
+    "CNN/Daily Mail",
+    "ROUGE-1.5.5 官方实现"
+   ]
+  }
+ }
 }

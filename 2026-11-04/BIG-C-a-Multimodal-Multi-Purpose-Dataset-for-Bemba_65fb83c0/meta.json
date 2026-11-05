@@ -4,5 +4,31 @@
  "title": "BIG-C-a-Multimodal-Multi-Purpose-Dataset-for-Bemba",
  "token": "sk-UDLQGxzLo...",
  "created_at": "2026-11-04 21:16:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2cce292b-0ab4-428c-a9f9-aa7d935a0cb1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2cce292b-0ab4-428c-a9f9-aa7d935a0cb1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:06:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "低资源语言",
+    "多模态数据集",
+    " Bemba",
+    "语音识别",
+    "语音翻译",
+    "机器翻译",
+    "非洲语言"
+   ],
+   "field": "低资源多模态NLP",
+   "innovations": [
+    "首个面向 Bemba 的多模态多用途数据集，同时支持 ASR/ST/MT/对话任务",
+    "语音-文本-图像三模态并行对齐的低资源数据采集方案",
+    "Phylogeny-based adapter 在 Bemba-English 机器翻译中的应用"
+   ],
+   "benchmarks": [
+    "BIG-C Test Set (ASR WER, ST BLEU)",
+    "FLORES-200 devtest (MT BLEU)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "A-Causal-Framework-to-Quantify-the-Robustness-of-Mathematica",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-11-04 21:06:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/487ab636-5a03-42f7-a777-bee4ba51d17a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/487ab636-5a03-42f7-a777-bee4ba51d17a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:04:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "因果推断",
+    "数学推理",
+    "鲁棒性评估",
+    "语言模型",
+    "行为测试",
+    "do干预"
+   ],
+   "field": "NLP模型可解释性与鲁棒性",
+   "innovations": [
+    "首个基于因果图的数学推理鲁棒性量化框架，分离敏感性与脆弱性",
+    "提出TCE与DCE双维度度量体系，结合预测变化与置信度变化",
+    "建立人类推理基准与模型推理的因果机制对比分析"
+   ],
+   "benchmarks": [
+    "ASDiv-A",
+    "MAWPS",
+    "SVAMP"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "Did-You-Read-the-Instructions-Rethinking-the-Effectiveness-o",
  "token": "sk-8zjLxCqN4...",
  "created_at": "2026-11-04 21:05:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/35ff6830-f307-4075-a85f-5ced38a87cb7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/35ff6830-f307-4075-a85f-5ced38a87cb7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:10:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "instruction learning",
+    "task definition",
+    "model interpretability",
+    "prompt compression",
+    "structured instructions"
+   ],
+   "field": "指令学习与大语言模型可解释性",
+   "innovations": [
+    "提出句法引导的任务定义压缩算法STDC，可删除60%冗余token",
+    "发现标签信息是任务定义中最关键部分而输入描述几乎无用",
+    "提出结构化三元组格式与元调优策略，在119个未见任务上提升4.2 Rouge-L"
+   ],
+   "benchmarks": [
+    "NIv2",
+    "SUPER-NATURALINSTRUCTION"
+   ]
+  }
+ }
 }
