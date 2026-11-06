@@ -4,5 +4,29 @@
  "title": "COMPOsitional-Data-Augmentation-for-Abstractive-Conversation",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-11-04 21:24:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7e940f1d-775a-41f1-9c1d-7010c7e1264b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7e940f1d-775a-41f1-9c1d-7010c7e1264b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:38:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话摘要",
+    "数据增强",
+    "组合泛化",
+    "低资源学习",
+    "自我训练"
+   ],
+   "field": "对话系统数据增强",
+   "innovations": [
+    "提出基于话题结构和动作三元组的子结构组合数据增强框架",
+    "设计基于Vote-k图的选择性检索机制保证多样性和覆盖率"
+   ],
+   "benchmarks": [
+    "SAMSum",
+    "DialogSum",
+    "CNN/DailyMail"
+   ]
+  }
+ }
 }

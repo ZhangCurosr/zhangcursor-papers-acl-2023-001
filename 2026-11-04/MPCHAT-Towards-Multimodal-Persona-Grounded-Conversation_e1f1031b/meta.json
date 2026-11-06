@@ -4,5 +4,32 @@
  "title": "MPCHAT-Towards-Multimodal-Persona-Grounded-Conversation",
  "token": "sk-6puwYp2kk...",
  "created_at": "2026-11-04 21:27:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/dbb28615-5b38-4dfb-b51d-9cc4f5e60328.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/dbb28615-5b38-4dfb-b51d-9cc4f5e60328.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:41:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态对话",
+    "人格接地对话",
+    "情景记忆",
+    "数据集构建",
+    "检索式评估",
+    "CLIP",
+    "SBERT",
+    "Reddit"
+   ],
+   "field": "多模态对话理解",
+   "innovations": [
+    "提出首个图文多模态人格对话数据集MPCHAT，基于情景记忆刻画用户人格",
+    "定义三个检索式基准任务（下一回复预测、人格接地预测、说话人识别）评估多模态对话理解能力",
+    "系统验证多模态人格（图文对）在对话理解任务中带来统计显著的性能提升"
+   ],
+   "benchmarks": [
+    "Recall@1",
+    "MRR"
+   ]
+  }
+ }
 }

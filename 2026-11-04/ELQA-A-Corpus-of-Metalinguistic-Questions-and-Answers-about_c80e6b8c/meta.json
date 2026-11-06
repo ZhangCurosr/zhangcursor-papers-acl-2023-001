@@ -4,5 +4,29 @@
  "title": "ELQA-A-Corpus-of-Metalinguistic-Questions-and-Answers-about",
  "token": "sk-hRG9yTz20...",
  "created_at": "2026-11-04 21:19:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/90cd704a-2bc4-4f1b-9188-130034beed34.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/90cd704a-2bc4-4f1b-9188-130034beed34.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:38:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "元语言问答",
+    "英语语言学习",
+    "闭卷QA",
+    "大语言模型评估",
+    "Stack Exchange数据集",
+    "教育NLP"
+   ],
+   "field": "语言资源构建与元语言理解",
+   "innovations": [
+    "发布首个公开英语元语言问答数据集ELQA",
+    "定义闭卷自由形式英文语言问答任务并系统评估LLM性能"
+   ],
+   "benchmarks": [
+    "ELQA",
+    "ELQA-small"
+   ]
+  }
+ }
 }

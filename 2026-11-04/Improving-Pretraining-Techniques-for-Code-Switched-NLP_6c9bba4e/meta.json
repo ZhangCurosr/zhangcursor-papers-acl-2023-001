@@ -4,5 +4,33 @@
  "title": "Improving-Pretraining-Techniques-for-Code-Switched-NLP",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-11-04 21:27:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/53cf4c41-0f92-4ad4-add2-db7827af7c02.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/53cf4c41-0f92-4ad4-add2-db7827af7c02.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:39:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "code-switching",
+    "masked language modeling",
+    "pretraining",
+    "mBERT",
+    "language identification",
+    "residual connection",
+    "GLUECoS",
+    "multilingual NLP"
+   ],
+   "field": "语码转换NLP",
+   "innovations": [
+    "提出SWITCHMLM和FREQMLM两种语言边界感知掩码策略替代随机MLM",
+    "设计RESBERT架构通过中间层残差连接增强低层语言信息传递",
+    "引入辅助LID损失与L2正则化联合优化以显式强化switch-point编码"
+   ],
+   "benchmarks": [
+    "GLUECoS QA (HI-EN)",
+    "GLUECoS SA (HI-EN, ES-EN, TA-EN, ML-EN)",
+    "L3CUBE Hindi-English"
+   ]
+  }
+ }
 }

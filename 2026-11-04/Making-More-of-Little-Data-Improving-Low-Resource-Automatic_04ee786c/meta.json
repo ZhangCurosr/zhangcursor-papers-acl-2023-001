@@ -4,5 +4,33 @@
  "title": "Making-More-of-Little-Data-Improving-Low-Resource-Automatic",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-11-04 21:06:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/cc19db2a-c4b1-41cc-918e-cd6174849dd1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/cc19db2a-c4b1-41cc-918e-cd6174849dd1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:41:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "低资源语音识别",
+    "数据增强",
+    "自训练",
+    "自监督学习",
+    "TTS 合成数据",
+    "XLS-R",
+    "少数民族语言"
+   ],
+   "field": "低资源自动语音识别",
+   "innovations": [
+    "在四种类型学差异显著的极低资源语言上系统验证自训练的稳定性收益",
+    "首次在有现成 TTS 的少数民族语言上验证合成语音对 ASR 的强增强效果（38.6% 相对 WER 降低）",
+    "量化对比数据增强与继续预训练的性价比，证明在 <4h 场景下数据增强显著优于 CPT"
+   ],
+   "benchmarks": [
+    "Gronings ASR（荷兰方言，约 4h 标注）",
+    "West-Frisian ASR（西弗里斯兰语，约 4h 标注）",
+    "Besemah ASR（印尼 Austronesian 语，约 4h 标注）",
+    "Nasal ASR（印尼 Austronesian 语，约 4h 标注）"
+   ]
+  }
+ }
 }

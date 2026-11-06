@@ -4,5 +4,33 @@
  "title": "Injecting-knowledge-into-language-generation-a-case-study-in",
  "token": "sk-OzxqMKxem...",
  "created_at": "2026-11-04 21:01:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1a949350-596a-4c97-9438-17b9a5fd0b97.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1a949350-596a-4c97-9438-17b9a5fd0b97.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:40:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sequence-to-sequence",
+    "rare token generation",
+    "knowledge injection",
+    "medical NLG",
+    "regularization",
+    "utilization rate",
+    "after-visit care instructions"
+   ],
+   "field": "医疗自然语言生成",
+   "innovations": [
+    "提出高利用概念与利用率度量以识别源-目标共享的重要罕见词",
+    "设计利用率感知正则化损失直接优化边缘概率而非依赖复制机制",
+    "在医疗照护说明生成任务上实现自动指标与专家评估的双向显著提升"
+   ],
+   "benchmarks": [
+    "Care Plan Generation (internal dataset)",
+    "BERTScore",
+    "Concept-F1",
+    "GPT-2 Perplexity"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Measuring-Progress-in-Fine-grained-Vision-and-Language-Under",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-11-04 20:58:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/918212f1-12a9-42ba-b427-9397eb72664c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/918212f1-12a9-42ba-b427-9397eb72664c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:41:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fine-grained vision-language",
+    "pretraining dynamics",
+    "X-VLM",
+    "visual grounding",
+    "contrastive learning",
+    "benchmark evaluation"
+   ],
+   "field": "视觉-语言多模态预训练",
+   "innovations": [
+    "对X-VLM损失进行重formulation以解耦数据与损失贡献，提出视觉掩码ALBEF损失（L_VMA）",
+    "系统揭示细粒度技能在预训练过程中存在显著动力学异质性（部分技能峰值提前或持续退化）",
+    "实证证明显式物体建模创新的效果超过单纯扩展Web数据规模，且大规模噪声数据可能损害细粒度对齐"
+   ],
+   "benchmarks": [
+    "SVO-Probes",
+    "VALSE",
+    "VSR",
+    "Winoground",
+    "Flickr30K",
+    "COCO"
+   ]
+  }
+ }
 }

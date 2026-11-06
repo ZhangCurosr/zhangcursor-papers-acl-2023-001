@@ -4,5 +4,30 @@
  "title": "Memory-efficient-NLLB-200-Language-specific-Expert-Pruning-o",
  "token": "sk-aqqIvKJig...",
  "created_at": "2026-11-04 21:17:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/883b42d7-3380-46f8-9773-e894e92557b6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/883b42d7-3380-46f8-9773-e894e92557b6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:41:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture of Experts",
+    "Neural Machine Translation",
+    "Model Pruning",
+    "Multilingual Translation",
+    "NLLB-200",
+    "Expert Specialization"
+   ],
+   "field": "多语种机器翻译模型压缩",
+   "innovations": [
+    "提出无需微调的推理时MoE专家剪枝方法，可移除80%专家而几乎无损翻译质量",
+    "发现并验证NLLB-200中存在语言特定的decoder专家，支持按语言粒度进行高效剪枝"
+   ],
+   "benchmarks": [
+    "FLORES-200",
+    "chrF++",
+    "spBLEU"
+   ]
+  }
+ }
 }

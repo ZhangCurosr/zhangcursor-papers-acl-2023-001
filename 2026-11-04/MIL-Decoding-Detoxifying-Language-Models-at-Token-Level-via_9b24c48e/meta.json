@@ -4,5 +4,29 @@
  "title": "MIL-Decoding-Detoxifying-Language-Models-at-Token-Level-via",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-11-04 21:02:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d7f3efc3-aa3f-490b-a606-648ef299c74b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d7f3efc3-aa3f-490b-a606-648ef299c74b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:40:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multiple Instance Learning",
+    "Detoxification",
+    "Language Model",
+    "Decoding",
+    "Controllable Generation",
+    "Text Safety"
+   ],
+   "field": "可控文本生成与安全",
+   "innovations": [
+    "提出 MIL-Decoding，通过解码时插值轻量级 MIL 网络的上下文毒性分布实现 token 级语言模型解毒",
+    "仅对 top-k 候选 token 进行毒性评分，平衡了解毒效果与计算效率"
+   ],
+   "benchmarks": [
+    "RealToxicityPrompts",
+    "Solaiman & Dennison QA-dataset"
+   ]
+  }
+ }
 }

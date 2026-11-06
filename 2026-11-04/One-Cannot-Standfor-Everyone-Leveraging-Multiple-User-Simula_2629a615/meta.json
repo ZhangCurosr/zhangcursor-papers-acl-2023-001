@@ -4,5 +4,30 @@
  "title": "One-Cannot-Standfor-Everyone-Leveraging-Multiple-User-Simula",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-11-04 21:25:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7a36948c-84f3-462a-9fca-cb0c6541af6d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7a36948c-84f3-462a-9fca-cb0c6541af6d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:43:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "task-oriented dialogue",
+    "user simulator",
+    "multi-agent reinforcement learning",
+    "multi-armed bandit",
+    "curriculum learning",
+    "dialogue system training"
+   ],
+   "field": "任务导向对话系统",
+   "innovations": [
+    "将多用户模拟器同时训练框架MUST建模为多臂老虎机问题，首次引入MAB框架优化ToD系统训练",
+    "提出改进UCB1的自适应采样策略MUSTadaptive，通过惩罚项和均匀适配动态平衡探索与利用",
+    "构建GPT系列用户模拟器（U-GPT和GPT_IL），增强多模拟器集合的多样性与表现力"
+   ],
+   "benchmarks": [
+    "MultiWOZ Restaurant Domain",
+    "Simulated Agenda Dataset"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "MoralDial-A-Framework-to-Train-and-Evaluate-Moral-Dialogue-S",
  "token": "sk-ZWbnnHdTr...",
  "created_at": "2026-11-04 21:28:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e682bd78-75bd-4cd8-8ca3-2d20bf929f95.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e682bd78-75bd-4cd8-8ca3-2d20bf929f95.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:42:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "moral dialogue",
+    "rules of thumb",
+    "dialogue safety",
+    "value alignment",
+    "conversational agents",
+    "ethical NLP",
+    "RoT reasoning"
+   ],
+   "field": "对话系统与AI对齐",
+   "innovations": [
+    "提出MORALDIAL框架将道德沟通拆解为立场-状态-行为三模块",
+    "构造MA/ME/MR/RIL多轮道德讨论流实现多任务对话训练",
+    "设计基于Answer-RoT一致性的动态交互四指标评估体系"
+   ],
+   "benchmarks": [
+    "MIC",
+    "Social Chemistry 101",
+    "BST",
+    "Daily Dialogue"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "In-Context-Analogical-Reasoning-with-Pre-Trained-Language-Mo",
  "token": "sk-uRWIgUMtb...",
  "created_at": "2026-11-04 21:23:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/75a4cce2-d710-4a39-bdf3-2644a468e3d5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/75a4cce2-d710-4a39-bdf3-2644a468e3d5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:40:00",
+  "chunks": 1
+ }
 }

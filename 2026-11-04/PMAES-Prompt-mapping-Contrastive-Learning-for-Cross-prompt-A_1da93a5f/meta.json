@@ -4,5 +4,27 @@
  "title": "PMAES-Prompt-mapping-Contrastive-Learning-for-Cross-prompt-A",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-11-04 21:03:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/eb551cb7-1ddd-4d5c-8088-77b64787c952.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/eb551cb7-1ddd-4d5c-8088-77b64787c952.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:43:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨提示自动作文评分",
+    "对比学习",
+    "提示映射",
+    "领域自适应",
+    "多属性评分"
+   ],
+   "field": "自然语言处理-自动评分",
+   "innovations": [
+    "提出双向提示映射对比学习策略，通过学习一致的提示表示获取更多共享特征",
+    "设计属性间相关性损失最大化多属性表示间的互信息"
+   ],
+   "benchmarks": [
+    "ASAP++"
+   ]
+  }
+ }
 }

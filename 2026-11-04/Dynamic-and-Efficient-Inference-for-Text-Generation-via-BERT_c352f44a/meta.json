@@ -4,5 +4,32 @@
  "title": "Dynamic-and-Efficient-Inference-for-Text-Generation-via-BERT",
  "token": "sk-zwDCnJqPG...",
  "created_at": "2026-11-04 21:04:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a663dc04-6d37-422b-bcd0-b5ed2962a300.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a663dc04-6d37-422b-bcd0-b5ed2962a300.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:38:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "非自回归生成",
+    "动态剪枝",
+    "BERT",
+    "神经机器翻译",
+    "文本生成",
+    "模型压缩"
+   ],
+   "field": "高效文本生成",
+   "innovations": [
+    "将BERT家族模型改造为支持NAR生成的统一框架，结合CTC初始化与Levenshtein迭代精炼",
+    "一次性动态块剪枝实现推理时灵活选择模型稀疏度，无需多阶段子模型微调",
+    "在NMT和单语生成多任务上实现3-12倍加速且精度超过强AR基线"
+   ],
+   "benchmarks": [
+    "IWSLT'14 De→En",
+    "WMT'16 En→Ro",
+    "WMT'14 En→De",
+    "GLGE (XSUM, MSNews, SQuAD 1.1, MSQG)"
+   ]
+  }
+ }
 }

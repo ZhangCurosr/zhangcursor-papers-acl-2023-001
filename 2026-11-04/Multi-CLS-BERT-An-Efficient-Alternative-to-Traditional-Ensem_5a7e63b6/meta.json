@@ -4,5 +4,31 @@
  "title": "Multi-CLS-BERT-An-Efficient-Alternative-to-Traditional-Ensem",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-11-04 21:27:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/b67f86b4-5f72-47ff-930c-681dbb4ec873.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/b67f86b4-5f72-47ff-930c-681dbb4ec873.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:42:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "BERT",
+    "多视图表示",
+    "高效集成",
+    "自监督预训练",
+    "GLUE",
+    "SuperGLUE",
+    "置信度校准"
+   ],
+   "field": "预训练语言模型与高效集成方法",
+   "innovations": [
+    "单模型内多CLS多样化表示替代多模型集成",
+    "MCQT损失结合最大与平均视图相似度",
+    "层间/头部分裂线性层与重参数化防坍缩"
+   ],
+   "benchmarks": [
+    "GLUE",
+    "SuperGLUE"
+   ]
+  }
+ }
 }

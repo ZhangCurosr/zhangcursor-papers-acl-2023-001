@@ -4,5 +4,30 @@
  "title": "MS-DETR-Natural-Language-Video-Localization-with-Sampling-Mo",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-11-04 21:15:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e265f1a8-8879-4919-83f6-5283f3e7f184.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e265f1a8-8879-4919-83f6-5283f3e7f184.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:41:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自然语言视频定位",
+    "跨模态检索",
+    "DETR",
+    "moment-moment交互",
+    "多尺度编码"
+   ],
+   "field": "视频-语言理解",
+   "innovations": [
+    "提出锚点引导的moment解码器，通过可学习模板+动态锚点实现全局稀疏moment采样",
+    "设计多尺度视觉-语言编码器，结合序列缩减注意力与时间聚合构建层次化特征",
+    "引入锚点高亮注意力与辅助监督损失（span loss、masked word loss）缓解监督稀疏问题"
+   ],
+   "benchmarks": [
+    "ActivityNet Captions",
+    "TACoS",
+    "Charades-STA"
+   ]
+  }
+ }
 }

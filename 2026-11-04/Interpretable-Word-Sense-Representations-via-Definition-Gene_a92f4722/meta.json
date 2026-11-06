@@ -4,5 +4,32 @@
  "title": "Interpretable-Word-Sense-Representations-via-Definition-Gene",
  "token": "sk-0sYDudTcj...",
  "created_at": "2026-11-04 21:27:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ef0ee197-c4f1-4974-9ade-79d2663107d9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ef0ee197-c4f1-4974-9ade-79d2663107d9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:40:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "定义建模",
+    "语义变化分析",
+    "可解释表示",
+    "词义动态图",
+    "Flan-T5",
+    "词汇语义学"
+   ],
+   "field": "词汇语义学与可解释AI",
+   "innovations": [
+    "提出定义即表示范式，用自动生成语境化定义替代黑箱token嵌入",
+    "基于原型定义选取的词义标签方法优于基于原型使用的方法",
+    "构建词义动态图实现可解释的语义变化分析"
+   ],
+   "benchmarks": [
+    "English DWUGs",
+    "WordNet Definition Corpus",
+    "Oxford CHA",
+    "CoDWoE"
+   ]
+  }
+ }
 }

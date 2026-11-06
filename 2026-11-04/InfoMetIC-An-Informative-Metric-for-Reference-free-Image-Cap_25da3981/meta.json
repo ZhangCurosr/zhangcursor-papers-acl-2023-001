@@ -4,5 +4,33 @@
  "title": "InfoMetIC-An-Informative-Metric-for-Reference-free-Image-Cap",
  "token": "sk-Q9H20f53a...",
  "created_at": "2026-11-04 21:23:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/eb5d647d-6f85-4a4d-91b3-b66b0eddbc0d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/eb5d647d-6f85-4a4d-91b3-b66b0eddbc0d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:40:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图像描述评估",
+    "无参考评估指标",
+    "细粒度评估",
+    "跨模态对齐",
+    "Vision-Language"
+   ],
+   "field": "多模态评估",
+   "innovations": [
+    "提出无参考细粒度评估指标InfoMetIC，可同时定位错误词汇与遗漏图像区域",
+    "自监督构造token/region级标签并引入Hard Textual Negatives训练策略",
+    "构建CapTokenEval细粒度评估基准验证token级评估有效性"
+   ],
+   "benchmarks": [
+    "Flickr8k-Expert",
+    "Flickr8k-CF",
+    "Composite",
+    "Pascal-50S",
+    "THumB 1.0",
+    "NoCaps"
+   ]
+  }
+ }
 }

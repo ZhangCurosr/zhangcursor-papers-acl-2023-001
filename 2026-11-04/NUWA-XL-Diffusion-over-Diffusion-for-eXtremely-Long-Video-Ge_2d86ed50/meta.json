@@ -4,5 +4,31 @@
  "title": "NUWA-XL-Diffusion-over-Diffusion-for-eXtremely-Long-Video-Ge",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-11-04 21:17:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/24884402-fe06-4bd3-8be6-bac0d6ececbe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/24884402-fe06-4bd3-8be6-bac0d6ececbe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:42:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长视频生成",
+    "扩散模型",
+    "Diffusion over Diffusion",
+    "Coarse-to-fine",
+    "并行推理",
+    "视频生成"
+   ],
+   "field": "视频生成与编辑",
+   "innovations": [
+    "首次提出 Diffusion over Diffusion 层级架构实现极长视频并行生成",
+    "首次在 3376 帧长视频上直接训练以消除训练-推理差距",
+    "推理速度提升 94.26%（1024 帧从 7.55min 降至 26s）"
+   ],
+   "benchmarks": [
+    "FlintstonesHD",
+    "Avg-FID",
+    "B-FVD"
+   ]
+  }
+ }
 }
