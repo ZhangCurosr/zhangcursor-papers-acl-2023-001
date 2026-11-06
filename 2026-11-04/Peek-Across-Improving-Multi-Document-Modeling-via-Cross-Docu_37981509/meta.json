@@ -4,5 +4,34 @@
  "title": "Peek-Across-Improving-Multi-Document-Modeling-via-Cross-Docu",
  "token": "sk-Nw8TqBTK6...",
  "created_at": "2026-11-04 20:56:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0ac54530-e86b-4b7e-ad5f-7947105ea355.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0ac54530-e86b-4b7e-ad5f-7947105ea355.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 09:09:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-document pretraining",
+    "cross-document question answering",
+    "QAMDEN",
+    "LED",
+    "data augmentation",
+    "summarization"
+   ],
+   "field": "多文档自然语言处理",
+   "innovations": [
+    "将多文档预训练目标重构为跨文档问答任务，同时生成答案与salient sentence",
+    "基于QASEM的单句多QA生成机制实现10倍数据扩充",
+    "设计a/b/c三种梯度难度遮蔽模式组合以提升跨文档推理"
+   ],
+   "benchmarks": [
+    "HotpotQA-distractor",
+    "WikiHop",
+    "Multi-News",
+    "Multi-XScience",
+    "QMDSCNN",
+    "QMDSIR"
+   ]
+  }
+ }
 }

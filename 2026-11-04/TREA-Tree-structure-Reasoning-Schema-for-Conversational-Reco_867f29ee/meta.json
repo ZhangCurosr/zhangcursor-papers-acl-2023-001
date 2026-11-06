@@ -4,5 +4,29 @@
  "title": "TREA-Tree-structure-Reasoning-Schema-for-Conversational-Reco",
  "token": "sk-RV5chRIVy...",
  "created_at": "2026-11-04 21:04:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/cb556ab9-50df-465b-87fa-3c09f6382c1f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/cb556ab9-50df-465b-87fa-3c09f6382c1f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 09:17:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Conversational Recommender System",
+    "Knowledge Graph Reasoning",
+    "Tree-structured Reasoning",
+    "Dialogue Generation",
+    "Graph Neural Network"
+   ],
+   "field": "对话推荐系统",
+   "innovations": [
+    "首次对所有提及实体逐一跳溯因推理并构建可扩展多层级推理树",
+    "推理树双向交互生成模块，同时提升推荐与对话生成质量",
+    "引入隔离损失与对齐损失两个辅助目标以稳定推理表征学习"
+   ],
+   "benchmarks": [
+    "ReDial",
+    "TG-ReDial"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "TableVLM-Multi-modal-Pre-training-for-Table-Structure-Recogn",
  "token": "sk-fyqv15Q7Q...",
  "created_at": "2026-11-04 21:25:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/b86a97be-8b61-4e05-991f-d7c55b709a27.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/b86a97be-8b61-4e05-991f-d7c55b709a27.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 09:17:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "表格结构识别",
+    "多模态预训练",
+    "视觉语言模型",
+    "ComplexTable",
+    "TEDS",
+    "合成数据"
+   ],
+   "field": "文档智能/表格理解",
+   "innovations": [
+    "提出列标题预测预训练任务以增强表格列结构感知",
+    "提出文本相对位置预测任务以捕获跨行跨列结构关系",
+    "构建1000K复杂表格合成数据集ComplexTable"
+   ],
+   "benchmarks": [
+    "TableBank",
+    "PubTabNet",
+    "ComplexTable"
+   ]
+  }
+ }
 }

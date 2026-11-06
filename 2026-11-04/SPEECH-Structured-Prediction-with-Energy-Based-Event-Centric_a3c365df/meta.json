@@ -4,5 +4,30 @@
  "title": "SPEECH-Structured-Prediction-with-Energy-Based-Event-Centric",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-11-04 21:14:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0c2c0efb-6d22-4e8e-bf72-84d4a4b4c984.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0c2c0efb-6d22-4e8e-bf72-84d4a4b4c984.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 09:14:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "能量基模型",
+    "结构化预测",
+    "事件检测",
+    "事件关系抽取",
+    "超球体表征",
+    "自然语言处理"
+   ],
+   "field": "事件抽取与自然语言理解",
+   "innovations": [
+    "首次将能量基模型引入事件中心化结构化预测任务",
+    "提出每类事件独立的能量超球体表征并联合三级能量函数",
+    "设计词/句/文档多粒度统一联合优化框架"
+   ],
+   "benchmarks": [
+    "MAVEN-ERE",
+    "ONTOEVENT-DOC"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Exploring-How-Generative-Adversarial-Networks-Learn-Phonolog",
  "token": "sk-40JBdijp9...",
  "created_at": "2026-11-04 21:11:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4490213f-85da-41a6-980a-f8b889352e0c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4490213f-85da-41a6-980a-f8b889352e0c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 09:07:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "GAN音系学习",
+    "ciwGAN",
+    "鼻音表征",
+    "隐变量解读",
+    "跨语言音系对比",
+    "语音表征可解释性"
+   ],
+   "field": "计算音系学与语音表征学习",
+   "innovations": [
+    "揭示ciwGAN隐变量间存在交互效应，挑战单维对应音位特征的一一映射主张",
+    "证明GAN可对对比性/非对比性鼻音实施差异化编码",
+    "展示训练语料频率分布可驱动GAN特征系统重组"
+   ],
+   "benchmarks": [
+    "TIMIT",
+    "SIWIS French Speech Synthesis Database"
+   ]
+  }
+ }
 }

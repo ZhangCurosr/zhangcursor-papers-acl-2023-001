@@ -4,5 +4,30 @@
  "title": "SIMLM-Pre-training-with-Representation-Bottleneck-for-Dense",
  "token": "sk-mqXJxPMnY...",
  "created_at": "2026-11-04 21:00:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a8d89c49-96c9-4704-b28f-7109e5dccdb8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a8d89c49-96c9-4704-b28f-7109e5dccdb8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 09:12:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Dense Retrieval",
+    "Pre-training",
+    "Language Model",
+    "Representation Bottleneck",
+    "Information Retrieval"
+   ],
+   "field": "密集文本检索",
+   "innovations": [
+    "基于表示瓶颈的 Encoder-Decoder 预训练架构",
+    "针对检索优化的 Replaced Language Modeling 目标",
+    "无需伪查询的纯自监督预训练方法"
+   ],
+   "benchmarks": [
+    "MS-MARCO passage ranking",
+    "TREC Deep Learning Track",
+    "Natural Questions"
+   ]
+  }
+ }
 }

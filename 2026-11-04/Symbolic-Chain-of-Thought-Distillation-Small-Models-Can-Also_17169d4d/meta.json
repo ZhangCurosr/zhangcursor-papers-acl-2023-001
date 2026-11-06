@@ -4,5 +4,32 @@
  "title": "Symbolic-Chain-of-Thought-Distillation-Small-Models-Can-Also",
  "token": "sk-byuTueqyX...",
  "created_at": "2026-11-04 21:22:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2a93bc84-ced3-4ee9-a0f2-6ed3b61472c8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2a93bc84-ced3-4ee9-a0f2-6ed3b61472c8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 09:17:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Chain-of-Thought",
+    "Knowledge Distillation",
+    "Small Language Models",
+    "Reasoning",
+    "Few-shot Learning"
+   ],
+   "field": "小模型推理能力提升",
+   "innovations": [
+    "提出SCoTD方法使小模型通过多样本CoT蒸馏学会逐步推理",
+    "发现样本数量比质量过滤更重要，随机下采样接近高级过滤策略",
+    "验证CoT蒸馏可显著提升小模型在contrast sets和跨任务迁移上的鲁棒性"
+   ],
+   "benchmarks": [
+    "CommonsenseQA",
+    "OpenBookQA",
+    "QuaRel",
+    "IMDB contrast set",
+    "SST-2"
+   ]
+  }
+ }
 }

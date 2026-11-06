@@ -4,5 +4,30 @@
  "title": "Small-Data-Big-Impact-Leveraging-Minimal-Data-for-Effective",
  "token": "sk-kPtjfXaXd...",
  "created_at": "2026-11-04 21:19:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/db26d713-c953-4e42-9927-aa45b128befa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/db26d713-c953-4e42-9927-aa45b128befa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 09:14:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "低资源机器翻译",
+    "高质量种子数据",
+    "回译增强",
+    "多语言迁移",
+    "数据缩放效应",
+    "FLORES-200",
+    "chrF++"
+   ],
+   "field": "低资源神经机器翻译",
+   "innovations": [
+    "系统证明6k高质量种子数据即可显著提升低资源翻译性能",
+    "揭示多语言与回译无法替代高质量种子的核心作用",
+    "提供危机场景下周级快速采集的可复用SOP"
+   ],
+   "benchmarks": [
+    "FLORES-200"
+   ]
+  }
+ }
 }

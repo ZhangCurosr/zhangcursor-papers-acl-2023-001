@@ -4,5 +4,32 @@
  "title": "Schema-Guided-User-Satisfaction-Modeling-for-Task-Oriented-D",
  "token": "sk-U9tZkJPsQ...",
  "created_at": "2026-11-04 21:16:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/385760dd-535c-487d-9960-602c38086a21.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/385760dd-535c-487d-9960-602c38086a21.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 09:14:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "用户满意度建模",
+    "任务导向对话",
+    "任务模式",
+    "可解释性",
+    "零样本学习",
+    "低资源学习"
+   ],
+   "field": "对话系统评估",
+   "innovations": [
+    "显式建模任务属性满足度与重要性乘积预测用户满意度",
+    "基于MMR和位置衰减的无监督属性重要性估计",
+    "任务无关编码器实现跨域零样本泛化"
+   ],
+   "benchmarks": [
+    "MWOZ",
+    "SGD",
+    "ReDial",
+    "JDDC"
+   ]
+  }
+ }
 }

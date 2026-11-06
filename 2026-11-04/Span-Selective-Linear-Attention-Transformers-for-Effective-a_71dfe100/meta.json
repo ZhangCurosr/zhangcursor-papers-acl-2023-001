@@ -4,5 +4,31 @@
  "title": "Span-Selective-Linear-Attention-Transformers-for-Effective-a",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-11-04 21:06:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/fc8c5dc9-d4ab-4822-9054-bdcdcd67d9a4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/fc8c5dc9-d4ab-4822-9054-bdcdcd67d9a4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 09:16:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Dialogue State Tracking",
+    "Schema-Guided DST",
+    "Linear Attention Transformer",
+    "Span Pointer Module",
+    "Recurrent Span Selection",
+    "Robustness Benchmark"
+   ],
+   "field": "低资源对话状态跟踪",
+   "innovations": [
+    "提出span-selective prediction layers实现并行提取式预测",
+    "采用Linear Attention Transformer联合编码schema与对话历史",
+    "设计recurrent span selection预训练提升span表示质量"
+   ],
+   "benchmarks": [
+    "SGD",
+    "SGD-X",
+    "MultiWOZ 2.2"
+   ]
+  }
+ }
 }

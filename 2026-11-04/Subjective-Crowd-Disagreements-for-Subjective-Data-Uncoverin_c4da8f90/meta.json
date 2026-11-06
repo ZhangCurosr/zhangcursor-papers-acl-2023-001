@@ -4,5 +4,32 @@
  "title": "Subjective-Crowd-Disagreements-for-Subjective-Data-Uncoverin",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-11-04 20:59:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a13df6b6-7470-4fa9-a6ba-61083931101d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a13df6b6-7470-4fa9-a6ba-61083931101d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 09:16:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "label distribution learning",
+    "crowd disagreement",
+    "subjective annotation",
+    "clustering",
+    "social media content moderation",
+    "population-level learning"
+   ],
+   "field": "自然语言处理-主观内容理解",
+   "innovations": [
+    "提出CrowdOpinion两阶段框架，联合语言特征与标签分布进行聚类以缓解标注稀疏性",
+    "引入可调节混合参数w控制特征与标签在聚类中的权重，验证了聚类在分布预测上的普遍有效性",
+    "证明保留标注分歧比DS类噪声消除方法更能提升分布预测和单标签分类性能"
+   ],
+   "benchmarks": [
+    "GoEmotions (DGE)",
+    "Jobs QA (DJQ1/DJQ2/DJQ3)",
+    "SBIC Intent (DSI)",
+    "Facebook Reactions (DFB)"
+   ]
+  }
+ }
 }

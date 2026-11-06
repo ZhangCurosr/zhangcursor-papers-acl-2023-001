@@ -4,5 +4,32 @@
  "title": "Knowledge-of-cultural-moral-norms-in-large-language-models",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-11-04 21:14:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c38c298b-0196-46a2-bfd1-d960377bd228.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c38c298b-0196-46a2-bfd1-d960377bd228.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 09:07:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨文化道德规范",
+    "语言模型探测",
+    "EPLM",
+    "World Values Survey",
+    "效用-偏见权衡",
+    "自动化道德推断",
+    "文化偏见"
+   ],
+   "field": "语言模型社会认知与跨文化评估",
+   "innovations": [
+    "提出细粒度主题-国家对探测方法评估EPLMs的跨文化道德知识",
+    "揭示EPLMs的西方中心道德偏差及系统性误判模式",
+    "验证跨文化微调的效用-偏见权衡及其泛化边界"
+   ],
+   "benchmarks": [
+    "World Values Survey Wave 7",
+    "PEW 2013 Global Attitudes Survey",
+    "Homogeneous norms (Schramowski et al. 2022)"
+   ]
+  }
+ }
 }

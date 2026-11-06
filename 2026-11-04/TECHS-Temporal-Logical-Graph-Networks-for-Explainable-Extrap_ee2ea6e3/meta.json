@@ -4,5 +4,32 @@
  "title": "TECHS-Temporal-Logical-Graph-Networks-for-Explainable-Extrap",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-11-04 21:03:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/46e687a4-deaa-4598-815e-094403da0732.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/46e687a4-deaa-4598-815e-094403da0732.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 09:17:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Temporal Knowledge Graph",
+    "Extrapolation Reasoning",
+    "Explainable AI",
+    "Logical Rule Learning",
+    "Graph Neural Network",
+    "FOTH Rule"
+   ],
+   "field": "时序知识图谱推理",
+   "innovations": [
+    "首次联合建模TKG结构依赖、时序动态与命题/一阶逻辑推理的统一框架",
+    "提出可微前向消息传递机制实现端到端逻辑推理，避免两阶段误差传播"
+   ],
+   "benchmarks": [
+    "ICEWS14",
+    "ICEWS18",
+    "ICEWS0515",
+    "WIKI",
+    "YAGO"
+   ]
+  }
+ }
 }

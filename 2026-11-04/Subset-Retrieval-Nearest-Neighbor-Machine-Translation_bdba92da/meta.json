@@ -4,5 +4,31 @@
  "title": "Subset-Retrieval-Nearest-Neighbor-Machine-Translation",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-11-04 20:59:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/fd9e65c9-df20-4218-b65a-d07d54f3718c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/fd9e65c9-df20-4218-b65a-d07d54f3718c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 09:16:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "kNN-MT",
+    "subset retrieval",
+    "asymmetric distance computation",
+    "product quantization",
+    "machine translation acceleration",
+    "domain adaptation"
+   ],
+   "field": "神经机器翻译",
+   "innovations": [
+    "提出子集检索机制，将kNN搜索空间从全量语料缩减至输入句子最近邻子集，大幅降低检索开销",
+    "针对动态子集场景引入ADC查找表技术实现高效距离计算，避免聚类索引的依赖",
+    "系统对比四种句子编码器在通用域和域适应场景下的效果，发现神经网络编码器对域适应至关重要"
+   ],
+   "benchmarks": [
+    "WMT'19 De-En",
+    "German-to-English Domain Adaptation (IT/Koran/Law/Medical/Subtitles)",
+    "English-to-Japanese (ASPEC/KFTT)"
+   ]
+  }
+ }
 }

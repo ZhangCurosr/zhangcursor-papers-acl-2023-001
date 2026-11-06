@@ -4,5 +4,30 @@
  "title": "Tailor-A-Soft-Prompt-Based-Approach-to-Attribute-Based-Contr",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-11-04 21:02:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/643f127e-a2f4-4810-9732-dedb0e8191d4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/643f127e-a2f4-4810-9732-dedb0e8191d4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 09:18:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Controlled Text Generation",
+    "Soft Prompt",
+    "Parameter-Efficient Tuning",
+    "Multi-Attribute Generation",
+    "Prompt Composition"
+   ],
+   "field": "可控文本生成 / 提示学习",
+   "innovations": [
+    "提出基于软提示的统一范式 Tailor，仅用 0.08% 额外参数实现单/多属性可控文本生成",
+    "揭示简单拼接提示的流畅度下降与位置敏感性问题时并提出 MAP Mask 与 RP Sequence 弥合训练测试鸿沟",
+    "设计 MAP Connector 与伪提示训练策略，在无多属性配对数据下实现高效提示组合与未见组合泛化"
+   ],
+   "benchmarks": [
+    "YELP",
+    "SST-2",
+    "AG News"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Exploring-Better-Text-Image-Translation-with-Multimodal-Code",
  "token": "sk-UdpjjT427...",
  "created_at": "2026-11-04 21:08:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/87bc6971-6d0a-4824-abb1-44958ec41371.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/87bc6971-6d0a-4824-abb1-44958ec41371.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 09:07:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "文本图像翻译",
+    "多模态机器翻译",
+    "多模态码本",
+    "OCR错误传播",
+    "跨模态对齐",
+    "矢量量化"
+   ],
+   "field": "多模态机器翻译",
+   "innovations": [
+    "提出基于多模态码本的TIT模型，利用图像生成文本补充信息以缓解OCR错误传播",
+    "发布首个公开中文-英文TIT数据集OCRMT30K",
+    "设计四阶段多阶段训练框架，结合双语语料、单语语料、OCR数据和TIT数据渐进式训练"
+   ],
+   "benchmarks": [
+    "OCRMT30K",
+    "WMT22 ZH-EN",
+    "ICDAR19-LSVT"
+   ]
+  }
+ }
 }
