@@ -4,5 +4,31 @@
  "title": "RetroMAE-2-Duplex-Masked-Auto-Encoder-For-Pre-Training-Retri",
  "token": "sk-ZGcchfG2c...",
  "created_at": "2026-11-04 21:23:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/50608d53-1a9d-4a19-9c9f-9bf25571cce4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/50608d53-1a9d-4a19-9c9f-9bf25571cce4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:05:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "retrieval-oriented pre-training",
+    "masked auto-encoder",
+    "dense retrieval",
+    "semantic representation",
+    "DupMAE",
+    "information retrieval"
+   ],
+   "field": "检索导向语言模型预训练",
+   "innovations": [
+    "提出DupMAE双通道掩码自编码器，联合优化[CLS]重建与OT的BoW预测任务",
+    "设计轻量解码器迫使编码器充分提取输入信息，提升表示质量",
+    "提出紧凑的双通道表示聚合方案，在同等计算成本下融合语义与词汇信息"
+   ],
+   "benchmarks": [
+    "MS MARCO passage retrieval",
+    "MS MARCO document retrieval",
+    "BEIR zero-shot retrieval"
+   ]
+  }
+ }
 }

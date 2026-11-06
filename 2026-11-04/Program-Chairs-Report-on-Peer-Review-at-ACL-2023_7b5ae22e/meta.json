@@ -4,5 +4,10 @@
  "title": "Program-Chairs-Report-on-Peer-Review-at-ACL-2023",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-11-04 21:24:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/6bb8a991-3c37-4818-9035-e26250acb791.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/6bb8a991-3c37-4818-9035-e26250acb791.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:05:20",
+  "chunks": 1
+ }
 }

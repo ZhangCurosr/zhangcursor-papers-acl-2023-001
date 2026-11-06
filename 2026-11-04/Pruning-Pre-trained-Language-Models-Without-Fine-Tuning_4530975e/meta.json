@@ -4,5 +4,32 @@
  "title": "Pruning-Pre-trained-Language-Models-Without-Fine-Tuning",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-11-04 21:19:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/62db79d5-ca93-4ba4-a2e7-cb89c68d4ed0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/62db79d5-ca93-4ba4-a2e7-cb89c68d4ed0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:05:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型剪枝",
+    "预训练语言模型",
+    "一阶梯度",
+    "无微调压缩",
+    "稀疏子网",
+    "BERT"
+   ],
+   "field": "模型压缩与高效推理",
+   "innovations": [
+    "提出 Static Model Pruning (SMP)，仅通过一阶梯度更新二值 mask 完成剪枝，无需 fine-tuning 即可适配下游任务",
+    "设计架构感知的全局 mask 分配函数，按权重矩阵重要性比例分配稀疏度，兼顾效率与性能",
+    "基于标签词嵌入初始化并冻结任务头，减少可训练参数同时保持性能"
+   ],
+   "benchmarks": [
+    "GLUE",
+    "MNLI",
+    "QQP",
+    "SQuAD"
+   ]
+  }
+ }
 }

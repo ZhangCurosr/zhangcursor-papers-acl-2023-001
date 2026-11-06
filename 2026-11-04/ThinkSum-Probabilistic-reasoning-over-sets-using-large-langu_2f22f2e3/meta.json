@@ -4,5 +4,30 @@
  "title": "ThinkSum-Probabilistic-reasoning-over-sets-using-large-langu",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-11-04 21:22:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f04699ec-3b55-454e-8951-cc8edca4e678.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f04699ec-3b55-454e-8951-cc8edca4e678.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:06:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM reasoning",
+    "ThinkSum",
+    "probabilistic inference",
+    "BIG-bench",
+    "chain-of-thought",
+    "prompt engineering",
+    "latent variable model"
+   ],
+   "field": "大语言模型推理与方法",
+   "innovations": [
+    "提出ThinkSum两阶段推理：Think并行检索+Sum外部概率聚合",
+    "系统化Think/Sum操作族与多种聚合策略（混合/乘积/似然比/潜在变量）",
+    "在BIG-bench 13个任务上刷新SOTA，小模型GPT-2 XL超越大模型直接提示"
+   ],
+   "benchmarks": [
+    "BIG-bench Lite"
+   ]
+  }
+ }
 }

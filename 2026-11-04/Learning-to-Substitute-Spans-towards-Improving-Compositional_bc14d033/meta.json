@@ -4,5 +4,29 @@
  "title": "Learning-to-Substitute-Spans-towards-Improving-Compositional",
  "token": "sk-qmUqzLD4i...",
  "created_at": "2026-11-04 21:23:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/15cc6812-de92-43f1-bd57-28b98631c768.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/15cc6812-de92-43f1-bd57-28b98631c768.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:04:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "组合泛化",
+    "数据增强",
+    "span替换",
+    "学习型增强",
+    "语义解析"
+   ],
+   "field": "组合泛化与神经符号系统",
+   "innovations": [
+    "首个基于span的多粒度组合数据增强方案SpanSub，统一词级/子树级/子结构级替换",
+    "L2S2可微增强框架，通过最大化下游损失端到端学习难度感知的替换概率"
+   ],
+   "benchmarks": [
+    "SCAN",
+    "COGS",
+    "GeoQuery"
+   ]
+  }
+ }
 }

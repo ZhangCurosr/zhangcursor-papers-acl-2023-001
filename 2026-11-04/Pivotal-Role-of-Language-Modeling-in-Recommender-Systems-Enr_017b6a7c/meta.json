@@ -4,5 +4,32 @@
  "title": "Pivotal-Role-of-Language-Modeling-in-Recommender-Systems-Enr",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-11-04 21:27:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/05d22818-0dde-432c-b569-c60849dd0470.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/05d22818-0dde-432c-b569-c60849dd0470.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:04:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "语言建模",
+    "推荐系统",
+    "用户表征",
+    "迁移学习",
+    "联合训练",
+    "task-agnostic 语料",
+    "线性探针"
+   ],
+   "field": "推荐系统",
+   "innovations": [
+    "联合语言建模与推荐任务目标提升用户表征质量",
+    "利用跨域 task-agnostic 用户历史增强泛化与迁移能力",
+    "简洁高效的冻结预训练+线性探针迁移框架用于大规模推荐部署"
+   ],
+   "benchmarks": [
+    "Amazon Scientific",
+    "Amazon Pantry",
+    "Online Retail"
+   ]
+  }
+ }
 }

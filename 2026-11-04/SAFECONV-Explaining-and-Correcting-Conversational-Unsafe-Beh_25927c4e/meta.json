@@ -4,5 +4,35 @@
  "title": "SAFECONV-Explaining-and-Correcting-Conversational-Unsafe-Beh",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-11-04 21:01:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1c94b5f9-48a4-48e6-8bec-272dbabe1ba3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1c94b5f9-48a4-48e6-8bec-272dbabe1ba3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:05:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话安全",
+    "不安全span标注",
+    "上下文重写",
+    "check-tag-rewrite",
+    "SAFECONV",
+    "RL微调",
+    "中文对话",
+    "detoxification"
+   ],
+   "field": "对话系统与AI安全",
+   "innovations": [
+    "首个同时提供utterance级安全标签、unsafe spans和安全替代回复的大规模中文对话安全数据集",
+    "通过unsafe span masking实现checker决策可解释性验证",
+    "context-aware contextual rewriting结合PPO安全反馈微调实现plug-and-play chatbot detoxification"
+   ],
+   "benchmarks": [
+    "SAFECONV",
+    "LCCC-base",
+    "PchatbotW",
+    "CDialGPT-base/large",
+    "EVA-base/large"
+   ]
+  }
+ }
 }

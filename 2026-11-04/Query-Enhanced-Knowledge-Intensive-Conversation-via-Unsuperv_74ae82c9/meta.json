@@ -4,5 +4,30 @@
  "title": "Query-Enhanced-Knowledge-Intensive-Conversation-via-Unsuperv",
  "token": "sk-aeujzMN4P...",
  "created_at": "2026-11-04 21:27:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/43c409f9-805b-4361-881d-a9d06b0ac113.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/43c409f9-805b-4361-881d-a9d06b0ac113.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:05:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识密集型对话",
+    "查询生成",
+    "无监督联合训练",
+    "检索增强生成",
+    "对话式问答"
+   ],
+   "field": "知识密集型对话系统",
+   "innovations": [
+    "首次提出无监督联合训练框架将查询生成与响应生成端到端优化，无需任何额外标注",
+    "融合上下文敏感与响应敏感双模态引导约束无监督查询生成",
+    "通过边缘化候选查询的联合目标实现检索-生成协同优化"
+   ],
+   "benchmarks": [
+    "QReCC",
+    "SMD",
+    "WoW"
+   ]
+  }
+ }
 }

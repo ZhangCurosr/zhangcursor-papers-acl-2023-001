@@ -4,5 +4,33 @@
  "title": "Text-Adversarial-Purification-as-Defense-against-Adversarial",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-11-04 21:01:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f30f7a45-3805-489d-b483-1169301d0845.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f30f7a45-3805-489d-b483-1169301d0845.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:06:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对抗纯净化",
+    "文本对抗防御",
+    "掩码语言模型",
+    "词替换攻击",
+    "鲁棒性",
+    "BERT",
+    "对抗训练"
+   ],
+   "field": "自然语言处理安全与鲁棒性",
+   "innovations": [
+    "首次将对抗纯净化引入NLP领域，基于掩码语言模型实现文本去噪恢复",
+    "提出多轮掩码-恢复集成策略替代耗时的迭代纯净过程",
+    "联合训练分类器与掩码恢复模块并融合梯度对抗训练增强纯净能力"
+   ],
+   "benchmarks": [
+    "IMDB情感分类",
+    "AG's News新闻分类",
+    "TextFooler攻击",
+    "BERT-Attack"
+   ]
+  }
+ }
 }
