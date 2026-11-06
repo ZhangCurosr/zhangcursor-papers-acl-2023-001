@@ -4,5 +4,30 @@
  "title": "Retrieve-and-Sample-Document-level-Event-Argument-Extraction",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-11-04 21:12:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/788e4995-e214-42ee-82c8-923879a5bc7b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/788e4995-e214-42ee-82c8-923879a5bc7b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 22:26:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Document-level Event Argument Extraction",
+    "Retrieval-Augmented Generation",
+    "Continuous Semantic Sampling",
+    "Few-shot Information Extraction",
+    "RAMS",
+    "WikiEvents"
+   ],
+   "field": "文档级信息抽取",
+   "innovations": [
+    "首次从输入空间与标签空间双视角系统探索文档级事件论元抽取的检索策略设计",
+    "提出自适应混合检索增强范式，通过高斯重参数化在连续事件语义区域采样伪示范以融合上下文与模式一致性",
+    "在RAMS和WikiEvents上生成式基线中达到SOTA，Arg-C显著提升并在仅20%训练数据下逼近全量baseline性能"
+   ],
+   "benchmarks": [
+    "RAMS",
+    "WikiEvents"
+   ]
+  }
+ }
 }
